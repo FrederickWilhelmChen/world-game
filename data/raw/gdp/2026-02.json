@@ -1,0 +1,1272 @@
+{
+  "last_updated": "2026-02-01T13:29:11Z",
+  "unit": "USD",
+  "data": {
+    "AFG": {
+      "value": 17152234636.8715,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "ALB": {
+      "value": 27046429296.6673,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DZA": {
+      "value": 269322281664.773,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ASM": {
+      "value": 871000000.0,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "AND": {
+      "value": 4039842405.48117,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "AGO": {
+      "value": 100998916781.079,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ATG": {
+      "value": 2207622874.07407,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ARG": {
+      "value": 638365455340.04,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ARM": {
+      "value": 25955275380.0321,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ABW": {
+      "value": 4265650673.00236,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "AUS": {
+      "value": 1757022451652.83,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "AUT": {
+      "value": 534790720466.822,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "AZE": {
+      "value": 74315882352.9412,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BHS": {
+      "value": 15832800000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BHR": {
+      "value": 47109734308.5106,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BGD": {
+      "value": 450119432068.852,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BRB": {
+      "value": 7498050000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BLR": {
+      "value": 75961865471.9129,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BEL": {
+      "value": 671370081636.406,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BLZ": {
+      "value": 3203631800.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BEN": {
+      "value": 21482643706.4249,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BMU": {
+      "value": 9233600000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BTN": {
+      "value": 3012896789.24928,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "BOL": {
+      "value": 54881327452.9667,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BIH": {
+      "value": 29613572022.8993,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BWA": {
+      "value": 19402063512.9066,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BRA": {
+      "value": 2185821648943.86,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BRN": {
+      "value": 15340808592.48,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BGR": {
+      "value": 113343355779.985,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BFA": {
+      "value": 23124729853.0218,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "BDI": {
+      "value": 3082433067.32634,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CPV": {
+      "value": 2725414150.72735,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KHM": {
+      "value": 46352647037.2406,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CMR": {
+      "value": 53296694320.2057,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CAN": {
+      "value": 2243636826633.76,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CYM": {
+      "value": 7241244269.45972,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "CAF": {
+      "value": 2751494281.06887,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TCD": {
+      "value": 19518819751.283,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CHI": {
+      "value": 12507320838.3932,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "CHL": {
+      "value": 330267137371.592,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CHN": {
+      "value": 18743803170827.2,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "COL": {
+      "value": 418818154879.271,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "COM": {
+      "value": 1440991455.45188,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "COD": {
+      "value": 70962185790.7094,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "COG": {
+      "value": 15719986076.6464,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CRI": {
+      "value": 95350423176.5962,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CIV": {
+      "value": 87113179149.284,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "HRV": {
+      "value": 92983810328.9088,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CUB": {
+      "value": 107352000000.0,
+      "unit": "USD",
+      "year": 2020,
+      "lag_note": "lagged; release: 2020-12"
+    },
+    "CUW": {
+      "value": 3561178196.20713,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CYP": {
+      "value": 37634533331.8902,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CZE": {
+      "value": 347034062928.479,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DNK": {
+      "value": 424524722037.047,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DJI": {
+      "value": 4152145939.98458,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DMA": {
+      "value": 688881481.481481,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DOM": {
+      "value": 124282245638.568,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ECU": {
+      "value": 124676074700.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "EGY": {
+      "value": 389059911003.566,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SLV": {
+      "value": 35364960000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GNQ": {
+      "value": 12765777677.0622,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "EST": {
+      "value": 43130419829.35,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SWZ": {
+      "value": 4858885840.77236,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ETH": {
+      "value": 149740297952.986,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "FRO": {
+      "value": 4052937169.76536,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "FJI": {
+      "value": 5968125909.27126,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "FIN": {
+      "value": 298696961297.656,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "FRA": {
+      "value": 3160442622465.08,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PYF": {
+      "value": 6323716355.05009,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GAB": {
+      "value": 20895684425.6752,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GMB": {
+      "value": 2404888749.21907,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GEO": {
+      "value": 34189423544.9955,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "DEU": {
+      "value": 4685592577804.69,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GHA": {
+      "value": 82308110386.4641,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GRC": {
+      "value": 256238371778.118,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GRL": {
+      "value": 3326543974.39193,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "GRD": {
+      "value": 1371918518.51852,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GUM": {
+      "value": 6910000000.0,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "GTM": {
+      "value": 113199581158.203,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GIN": {
+      "value": 25008678293.4084,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GNB": {
+      "value": 2218393804.54798,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GUY": {
+      "value": 24662709832.1343,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "HTI": {
+      "value": 25224154990.7946,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "HND": {
+      "value": 37093565854.0437,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "HKG": {
+      "value": 406863396487.342,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "HUN": {
+      "value": 222722738925.641,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ISL": {
+      "value": 33255181468.9382,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IND": {
+      "value": 3909891533858.08,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IDN": {
+      "value": 1396300098190.97,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IRN": {
+      "value": 475252089215.416,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IRQ": {
+      "value": 279641257615.385,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IRL": {
+      "value": 609157459747.205,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "IMN": {
+      "value": 7431257410.92713,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "ISR": {
+      "value": 540379921261.681,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ITA": {
+      "value": 2380825077243.59,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "JAM": {
+      "value": 22014397089.7689,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "JPN": {
+      "value": 4027597523550.58,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "JOR": {
+      "value": 53352289577.4648,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KAZ": {
+      "value": 291480274648.826,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KEN": {
+      "value": 120339557905.932,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KIR": {
+      "value": 307862564.489711,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KOR": {
+      "value": 1875388209406.8,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "XKX": {
+      "value": 11197246322.588,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KWT": {
+      "value": 160227273053.334,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KGZ": {
+      "value": 17478259659.2625,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LAO": {
+      "value": 16502933121.3379,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LVA": {
+      "value": 43684254432.3609,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LBN": {
+      "value": 20078620356.9931,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "LSO": {
+      "value": 2271759454.51107,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LBR": {
+      "value": 4779300900.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LBY": {
+      "value": 48487151215.345,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LIE": {
+      "value": 8239379403.22096,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "LTU": {
+      "value": 84869215513.3648,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LUX": {
+      "value": 93279851863.4062,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MAC": {
+      "value": 49467258923.3244,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MDG": {
+      "value": 17420501490.1231,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MWI": {
+      "value": 11316411329.4619,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MYS": {
+      "value": 422227005428.688,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MDV": {
+      "value": 7061608267.25451,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MLI": {
+      "value": 26794747239.8805,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MLT": {
+      "value": 24971574502.4475,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MHL": {
+      "value": 290108489.990234,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MRT": {
+      "value": 10908045686.8808,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MUS": {
+      "value": 14937861786.17,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MEX": {
+      "value": 1856365616165.94,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "FSM": {
+      "value": 471425099.488675,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MDA": {
+      "value": 18200340853.6517,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MCO": {
+      "value": 11125783372.4794,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MNG": {
+      "value": 23794540024.5132,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MNE": {
+      "value": 8270016670.86774,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MAR": {
+      "value": 160610994054.734,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MOZ": {
+      "value": 22745341305.0622,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MMR": {
+      "value": 74068349523.8095,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NAM": {
+      "value": 13372354511.716,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NRU": {
+      "value": 162588620.632234,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NPL": {
+      "value": 42914268286.7109,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NLD": {
+      "value": 1214927698572.66,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NCL": {
+      "value": 8548919387.12607,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NZL": {
+      "value": 260172385097.616,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NIC": {
+      "value": 19693982967.5926,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NER": {
+      "value": 19876128485.7857,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "NGA": {
+      "value": 252261880141.151,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MKD": {
+      "value": 16951682245.4202,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MNP": {
+      "value": 1096000000.0,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "NOR": {
+      "value": 483592648313.301,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "OMN": {
+      "value": 107137198769.386,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PAK": {
+      "value": 371570000121.266,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PLW": {
+      "value": 276733062.744141,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "PAN": {
+      "value": 86523959131.7472,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PNG": {
+      "value": 31800428265.5246,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PRY": {
+      "value": 44458118397.4445,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PER": {
+      "value": 289221969062.941,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PHL": {
+      "value": 461617509782.355,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "POL": {
+      "value": 917767106146.761,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PRT": {
+      "value": 313271185085.102,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "PRI": {
+      "value": 126029527033.705,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "QAT": {
+      "value": 219162637362.637,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ROU": {
+      "value": 382564217988.866,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "RUS": {
+      "value": 2173835806671.66,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "RWA": {
+      "value": 14251642235.0968,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "WSM": {
+      "value": 1175749785.65113,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SMR": {
+      "value": 2027527227.831,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "STP": {
+      "value": 822154621.088897,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SAU": {
+      "value": 1239804533333.33,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SEN": {
+      "value": 32808056600.9436,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SRB": {
+      "value": 90097765959.1114,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SYC": {
+      "value": 2167239562.46013,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SLE": {
+      "value": 6971127235.3123,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SGP": {
+      "value": 547386645891.847,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SXM": {
+      "value": 1797836665.95136,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SVK": {
+      "value": 140934076532.375,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SVN": {
+      "value": 72972015197.3859,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SLB": {
+      "value": 1583964703.75061,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SOM": {
+      "value": 11967000000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ZAF": {
+      "value": 401144998373.585,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ESP": {
+      "value": 1725671652742.19,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LKA": {
+      "value": 98963185509.6499,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "KNA": {
+      "value": 1122388888.88889,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "LCA": {
+      "value": 2549062962.96296,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "MAF": {
+      "value": 649206262.847519,
+      "unit": "USD",
+      "year": 2021,
+      "lag_note": "lagged; release: 2021-12"
+    },
+    "VCT": {
+      "value": 1157207407.40741,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SDN": {
+      "value": 49672435513.1126,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SUR": {
+      "value": 4416775112.09627,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SWE": {
+      "value": 603715224265.798,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "CHE": {
+      "value": 936564198048.516,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "SYR": {
+      "value": 23622827079.5047,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "TJK": {
+      "value": 14204575548.5536,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TZA": {
+      "value": 78844405385.2195,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "THA": {
+      "value": 526517658841.684,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TLS": {
+      "value": 1865608515.41321,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TGO": {
+      "value": 10651180146.531,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TON": {
+      "value": 591139749.44287,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "TTO": {
+      "value": 25633544529.4849,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TUN": {
+      "value": 51332285656.5422,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TUR": {
+      "value": 1359123768774.12,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TKM": {
+      "value": 51387209872.2994,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TCA": {
+      "value": 1745378000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "TUV": {
+      "value": 62280311.5852172,
+      "unit": "USD",
+      "year": 2023,
+      "lag_note": "lagged; release: 2023-12"
+    },
+    "UGA": {
+      "value": 53911907086.1525,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "UKR": {
+      "value": 190741262414.705,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ARE": {
+      "value": 552324846834.581,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "GBR": {
+      "value": 3686033044482.13,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "USA": {
+      "value": 28750956130731.2,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "URY": {
+      "value": 80961511073.5797,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "UZB": {
+      "value": 114965293466.611,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "VUT": {
+      "value": 1117972034.22642,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "VEN": {
+      "value": 119802963257.783,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "VNM": {
+      "value": 476388230307.175,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "VIR": {
+      "value": 4672000000.0,
+      "unit": "USD",
+      "year": 2022,
+      "lag_note": "lagged; release: 2022-12"
+    },
+    "PSE": {
+      "value": 13711100000.0,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ZMB": {
+      "value": 25303185342.2511,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    },
+    "ZWE": {
+      "value": 41539411516.4448,
+      "unit": "USD",
+      "year": 2024,
+      "lag_note": "lagged; release: 2024-12"
+    }
+  }
+}

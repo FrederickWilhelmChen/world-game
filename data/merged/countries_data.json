@@ -1,0 +1,5357 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-01T13:29:25Z",
+    "version": "0.1",
+    "last_crawl": "2026-02-01T13:29:25+00:00Z"
+  },
+  "countries": {
+    "AFG": {
+      "gdp": {
+        "value": 17152234636.8715,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 5260000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 4300000.0,
+          "rice": 597000.0,
+          "corn": 363000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ALB": {
+      "gdp": {
+        "value": 27046429296.6673,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 42186.30136986302,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 642700.5900000001,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 233584.69,
+          "rice": 0.0,
+          "corn": 409115.9
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DZA": {
+      "gdp": {
+        "value": 269322281664.773,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1888419.1780821919,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2512307.29,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2500000.0,
+          "rice": 307.29,
+          "corn": 12000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ASM": {
+      "gdp": {
+        "value": 871000000.0,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "AND": {
+      "gdp": {
+        "value": 4039842405.48117,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "AGO": {
+      "gdp": {
+        "value": 100998916781.079,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1828446.5753424657,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 3275449.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 20921.0,
+          "rice": 39830.0,
+          "corn": 3214698.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ATG": {
+      "gdp": {
+        "value": 2207622874.07407,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 46.25,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 46.25
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ARG": {
+      "gdp": {
+        "value": 638365455340.04,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1868394.5205479453,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 55128519.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 12555860.0,
+          "rice": 1163209.0,
+          "corn": 41409450.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ARM": {
+      "gdp": {
+        "value": 25955275380.0321,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 184345.4,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 177859.6,
+          "corn": 6485.8
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ABW": {
+      "gdp": {
+        "value": 4265650673.00236,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "AUS": {
+      "gdp": {
+        "value": 1757022451652.83,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 475139.72602739726,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 42082625.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 41199490.0,
+          "rice": 496633.0,
+          "corn": 386502.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 100000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "AUT": {
+      "gdp": {
+        "value": 534790720466.822,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 26846.575342465752,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3849880.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1744820.0,
+          "corn": 2105060.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "AZE": {
+      "gdp": {
+        "value": 74315882352.9412,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 929347.9452054794,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2093392.9000000001,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1792419.1,
+          "rice": 13972.5,
+          "corn": 287001.3
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BHS": {
+      "gdp": {
+        "value": 15832800000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 616.45,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 616.45
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BHR": {
+      "gdp": {
+        "value": 47109734308.5106,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 98600.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "BGD": {
+      "gdp": {
+        "value": 450119432068.852,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 7052.054794520548,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 64313158.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1107195.0,
+          "rice": 58613456.0,
+          "corn": 4592507.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BRB": {
+      "gdp": {
+        "value": 7498050000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1726.027397260274,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 41.66,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 41.66
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BLR": {
+      "gdp": {
+        "value": 75961865471.9129,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 56498.6301369863,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3400000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2400000.0,
+          "corn": 1000000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BEL": {
+      "gdp": {
+        "value": 671370081636.406,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2308660.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1791170.0,
+          "rice": 0.0,
+          "corn": 517490.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BLZ": {
+      "gdp": {
+        "value": 3203631800.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 3369.8630136986303,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 130112.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 17701.0,
+          "corn": 112411.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BEN": {
+      "gdp": {
+        "value": 21482643706.4249,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2551880.2,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 492626.2,
+          "corn": 2059254.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BMU": {
+      "gdp": {
+        "value": 9233600000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "BTN": {
+      "gdp": {
+        "value": 3012896789.24928,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 66759.24,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 837.01,
+          "rice": 40804.01,
+          "corn": 25118.22
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BOL": {
+      "gdp": {
+        "value": 54881327452.9667,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 111597.2602739726,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2228808.96,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 272806.3,
+          "rice": 698543.56,
+          "corn": 1257459.1
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BIH": {
+      "gdp": {
+        "value": 29613572022.8993,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 926301.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 228012.0,
+          "corn": 698289.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 700000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "BWA": {
+      "gdp": {
+        "value": 19402063512.9066,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 33550.39,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 810.0,
+          "corn": 32740.39
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BRA": {
+      "gdp": {
+        "value": 2185821648943.86,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 5801506.849315069,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 149966101.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 7730188.0,
+          "rice": 10285663.0,
+          "corn": 131950250.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 33000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "BRN": {
+      "gdp": {
+        "value": 15340808592.48,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 154501.3698630137,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 3700.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 3700.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BGR": {
+      "gdp": {
+        "value": 113343355779.985,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1728.7671232876712,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 9367700.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6854760.0,
+          "rice": 64160.0,
+          "corn": 2448780.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BFA": {
+      "gdp": {
+        "value": 23124729853.0218,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2499613.5,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 504254.0,
+          "corn": 1995359.5
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "BDI": {
+      "gdp": {
+        "value": 3082433067.32634,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1005953.43,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 7959.93,
+          "rice": 412369.0,
+          "corn": 585624.5
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CPV": {
+      "gdp": {
+        "value": 2725414150.72735,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 464.0,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 464.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "KHM": {
+      "gdp": {
+        "value": 46352647037.2406,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 14380000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 12900000.0,
+          "corn": 1480000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CMR": {
+      "gdp": {
+        "value": 53296694320.2057,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 160956.16438356164,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2559032.67,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 599.67,
+          "rice": 358433.0,
+          "corn": 2200000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CAN": {
+      "gdp": {
+        "value": 2243636826633.76,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 9238556.164383562,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 47030046.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 31954116.0,
+          "corn": 15075930.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CYM": {
+      "gdp": {
+        "value": 7241244269.45972,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "CAF": {
+      "gdp": {
+        "value": 2751494281.06887,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 274141.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 53326.0,
+          "corn": 220815.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TCD": {
+      "gdp": {
+        "value": 19518819751.283,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 214783.56164383562,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 579592.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1399.0,
+          "rice": 223952.0,
+          "corn": 354241.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CHI": {
+      "gdp": {
+        "value": 12507320838.3932,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CHL": {
+      "gdp": {
+        "value": 330267137371.592,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 8742.465753424658,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1942132.3,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1289773.8,
+          "rice": 109232.5,
+          "corn": 543126.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CHN": {
+      "gdp": {
+        "value": 18743803170827.2,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 6783347.94520548,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 632035600.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 136590100.0,
+          "rice": 206603200.0,
+          "corn": 288842300.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 93000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "COL": {
+      "gdp": {
+        "value": 418818154879.271,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1300216.4383561644,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 4964992.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 9354.0,
+          "rice": 3006100.0,
+          "corn": 1949538.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 48000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "COM": {
+      "gdp": {
+        "value": 1440991455.45188,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 19705.44,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 21.02,
+          "corn": 19684.42
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "COD": {
+      "gdp": {
+        "value": 70962185790.7094,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 34583.561643835616,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4156944.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 9000.0,
+          "rice": 1812345.0,
+          "corn": 2335599.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "COG": {
+      "gdp": {
+        "value": 15719986076.6464,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 436424.65753424657,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 14000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 1000.0,
+          "corn": 13000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CRI": {
+      "gdp": {
+        "value": 95350423176.5962,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 83440.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 76119.0,
+          "corn": 7321.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CIV": {
+      "gdp": {
+        "value": 87113179149.284,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 85024.65753424658,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3234500.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 2011500.0,
+          "corn": 1223000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "HRV": {
+      "gdp": {
+        "value": 92983810328.9088,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 24542.465753424658,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2825500.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 834230.0,
+          "rice": 0.0,
+          "corn": 1991270.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 17800.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "CUB": {
+      "gdp": {
+        "value": 107352000000.0,
+        "unit": "USD",
+        "year": 2020,
+        "lag_note": "lagged; release: 2020-12"
+      },
+      "oil_production": {
+        "value": 93712.32876712328,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 290000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 130000.0,
+          "corn": 160000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CUW": {
+      "gdp": {
+        "value": 3561178196.20713,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "CYP": {
+      "gdp": {
+        "value": 37634533331.8902,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 27850.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 27850.0,
+          "rice": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CZE": {
+      "gdp": {
+        "value": 347034062928.479,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 4263.013698630137,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 5769900.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 5262360.0,
+          "rice": 0.0,
+          "corn": 507540.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DNK": {
+      "gdp": {
+        "value": 424524722037.047,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 94175.34246575342,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 3597080.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 3556260.0,
+          "rice": 0.0,
+          "corn": 40820.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DJI": {
+      "gdp": {
+        "value": 4152145939.98458,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 17.33,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 17.33
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DMA": {
+      "gdp": {
+        "value": 688881481.481481,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 193.13,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 193.13
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DOM": {
+      "gdp": {
+        "value": 124282245638.568,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1028640.05,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 947005.0,
+          "corn": 81635.05
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 104000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "ECU": {
+      "gdp": {
+        "value": 124676074700.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 813904.1095890411,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2730358.12,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 3976.02,
+          "rice": 1313000.0,
+          "corn": 1413382.1
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "EGY": {
+      "gdp": {
+        "value": 389059911003.566,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 992200.0,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 22430000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 9700000.0,
+          "rice": 5600000.0,
+          "corn": 7130000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SLV": {
+      "gdp": {
+        "value": 35364960000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 781000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 11000.0,
+          "corn": 770000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GNQ": {
+      "gdp": {
+        "value": 12765777677.0622,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 138189.04109589042,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "EST": {
+      "gdp": {
+        "value": 43130419829.35,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 694120.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 694120.0,
+          "rice": 0.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SWZ": {
+      "gdp": {
+        "value": 4858885840.77236,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 86907.77,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 705.14,
+          "rice": 1000.63,
+          "corn": 85202.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ETH": {
+      "gdp": {
+        "value": 149740297952.986,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 16002000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 5800000.0,
+          "rice": 202000.0,
+          "corn": 10000000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "FRO": {
+      "gdp": {
+        "value": 4052937169.76536,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "FJI": {
+      "gdp": {
+        "value": 5968125909.27126,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 9171.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 7165.4,
+          "corn": 2005.6
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "FIN": {
+      "gdp": {
+        "value": 298696961297.656,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 749030.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 749030.0,
+          "rice": 0.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "FRA": {
+      "gdp": {
+        "value": 3160442622465.08,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 28857.534246575342,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 48898440.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 35995570.0,
+          "rice": 68270.0,
+          "corn": 12834600.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 118000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "PYF": {
+      "gdp": {
+        "value": 6323716355.05009,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "GAB": {
+      "gdp": {
+        "value": 20895684425.6752,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 357353.4246575342,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 48106.979999999996,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 1731.31,
+          "corn": 46375.67
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GMB": {
+      "gdp": {
+        "value": 2404888749.21907,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 81100.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 55100.0,
+          "corn": 26000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GEO": {
+      "gdp": {
+        "value": 34189423544.9955,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 693.1506849315068,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 337900.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 147000.0,
+          "corn": 190900.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "DEU": {
+      "gdp": {
+        "value": 4685592577804.69,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 81202.7397260274,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 26034800.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 21535900.0,
+          "rice": 0.0,
+          "corn": 4498900.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GHA": {
+      "gdp": {
+        "value": 82308110386.4641,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 171736.98630136985,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 5082000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 1463000.0,
+          "corn": 3619000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 773000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "GRC": {
+      "gdp": {
+        "value": 256238371778.118,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 5528.767123287671,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2916310.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1309180.0,
+          "rice": 190440.0,
+          "corn": 1416690.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 1200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "GRL": {
+      "gdp": {
+        "value": 3326543974.39193,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "GRD": {
+      "gdp": {
+        "value": 1371918518.51852,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 389.98,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 389.98
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GUM": {
+      "gdp": {
+        "value": 6910000000.0,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "GTM": {
+      "gdp": {
+        "value": 113199581158.203,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 15701.369863013699,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2126854.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 0.0,
+          "rice": 51193.0,
+          "corn": 2075661.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GIN": {
+      "gdp": {
+        "value": 25008678293.4084,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4516800.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 3534800.0,
+          "corn": 982000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 130000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "GNB": {
+      "gdp": {
+        "value": 2218393804.54798,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 247400.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 226400.0,
+          "corn": 21000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GUY": {
+      "gdp": {
+        "value": 24662709832.1343,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 979947.9452054794,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 999000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 995000.0,
+          "corn": 4000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 706000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "HTI": {
+      "gdp": {
+        "value": 25224154990.7946,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 316000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 136000.0,
+          "corn": 180000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "HND": {
+      "gdp": {
+        "value": 37093565854.0437,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 758845.26,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1279.48,
+          "rice": 34869.78,
+          "corn": 722696.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "HKG": {
+      "gdp": {
+        "value": 406863396487.342,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 0.06,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 0.06
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "HUN": {
+      "gdp": {
+        "value": 222722738925.641,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 34457.53424657534,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 12192730.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 5941990.0,
+          "rice": 8330.0,
+          "corn": 6242410.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ISL": {
+      "gdp": {
+        "value": 33255181468.9382,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "IND": {
+      "gdp": {
+        "value": 3909891533858.08,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1047849.3150684931,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 355365926.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 110553670.0,
+          "rice": 206727000.0,
+          "corn": 38085256.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 25000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "IDN": {
+      "gdp": {
+        "value": 1396300098190.97,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 953326.0273972603,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 73966642.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 53980990.0,
+          "corn": 19985652.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 32000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "IRN": {
+      "gdp": {
+        "value": 475252089215.416,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 7470320.547945205,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 17951432.9,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 14000000.0,
+          "rice": 3598594.5,
+          "corn": 352838.4
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 1000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "IRQ": {
+      "gdp": {
+        "value": 279641257615.385,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 6870408.219178082,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 4798579.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 4247726.0,
+          "rice": 12602.0,
+          "corn": 538251.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "IRL": {
+      "gdp": {
+        "value": 609157459747.205,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 483910.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 483910.0,
+          "rice": 0.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "IMN": {
+      "gdp": {
+        "value": 7431257410.92713,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      }
+    },
+    "ISR": {
+      "gdp": {
+        "value": 540379921261.681,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 679.4520547945206,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 187410.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 136000.0,
+          "corn": 51410.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ITA": {
+      "gdp": {
+        "value": 2380825077243.59,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 141958.90410958903,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 13621810.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6894470.0,
+          "rice": 1378640.0,
+          "corn": 5348700.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "JAM": {
+      "gdp": {
+        "value": 22014397089.7689,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2291.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 0.0,
+          "corn": 2291.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 6100000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "JPN": {
+      "gdp": {
+        "value": 4027597523550.58,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 16980.821917808218,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 11230167.49,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1094000.0,
+          "rice": 10136000.0,
+          "corn": 167.49
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "JOR": {
+      "gdp": {
+        "value": 53352289577.4648,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 38.35616438356164,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 26698.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 26698.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "KAZ": {
+      "gdp": {
+        "value": 291480274648.826,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 2789876.712328767,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 13785179.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 12110913.0,
+          "rice": 485183.0,
+          "corn": 1189083.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 4900000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "KEN": {
+      "gdp": {
+        "value": 120339557905.932,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4823762.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 309492.0,
+          "rice": 229064.0,
+          "corn": 4285206.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "KIR": {
+      "gdp": {
+        "value": 307862564.489711,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "KOR": {
+      "gdp": {
+        "value": 1875388209406.8,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 5040648.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 51809.0,
+          "rice": 4897839.0,
+          "corn": 91000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "XKX": {
+      "gdp": {
+        "value": 11197246322.588,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "KWT": {
+      "gdp": {
+        "value": 160227273053.334,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 4166339.7260273974,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 26245.29,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 25.29,
+          "corn": 26220.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "KGZ": {
+      "gdp": {
+        "value": 17478259659.2625,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1728.7671232876712,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1287116.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 440415.0,
+          "rice": 46765.0,
+          "corn": 799936.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LAO": {
+      "gdp": {
+        "value": 16502933121.3379,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4285000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 3835000.0,
+          "corn": 450000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LVA": {
+      "gdp": {
+        "value": 43684254432.3609,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2136800.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2136800.0,
+          "rice": 0.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LBN": {
+      "gdp": {
+        "value": 20078620356.9931,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 103000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 100000.0,
+          "corn": 3000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LSO": {
+      "gdp": {
+        "value": 2271759454.51107,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 133360.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6366.0,
+          "corn": 126994.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LBR": {
+      "gdp": {
+        "value": 4779300900.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 256200.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 256200.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LBY": {
+      "gdp": {
+        "value": 48487151215.345,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1775509.589041096,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 133965.31,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 130000.0,
+          "corn": 3965.31
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LIE": {
+      "gdp": {
+        "value": 8239379403.22096,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LTU": {
+      "gdp": {
+        "value": 84869215513.3648,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 3460.27397260274,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4546720.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 4455390.0,
+          "rice": 0.0,
+          "corn": 91330.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LUX": {
+      "gdp": {
+        "value": 93279851863.4062,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 73310.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 72360.0,
+          "rice": 0.0,
+          "corn": 950.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MAC": {
+      "gdp": {
+        "value": 49467258923.3244,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "MDG": {
+      "gdp": {
+        "value": 17420501490.1231,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 5388543.51,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2845.51,
+          "rice": 5117636.0,
+          "corn": 268062.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MWI": {
+      "gdp": {
+        "value": 11316411329.4619,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3635300.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1000.0,
+          "rice": 124300.0,
+          "corn": 3510000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MYS": {
+      "gdp": {
+        "value": 422227005428.688,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 766747.9452054794,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2167306.44,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 2166738.0,
+          "corn": 568.44
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 130000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "MDV": {
+      "gdp": {
+        "value": 7061608267.25451,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 147.16,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 147.16
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MLI": {
+      "gdp": {
+        "value": 26794747239.8805,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 6449332.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 38500.0,
+          "rice": 3023891.0,
+          "corn": 3386941.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MLT": {
+      "gdp": {
+        "value": 24971574502.4475,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 0.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 0.0,
+          "rice": 0.0,
+          "corn": 0.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MHL": {
+      "gdp": {
+        "value": 290108489.990234,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "MRT": {
+      "gdp": {
+        "value": 10908045686.8808,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 8328.767123287671,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 475200.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2000.0,
+          "rice": 458200.0,
+          "corn": 15000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MUS": {
+      "gdp": {
+        "value": 14937861786.17,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1502.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 0.0,
+          "corn": 1502.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MEX": {
+      "gdp": {
+        "value": 1856365616165.94,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 3070652.0547945206,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 31278044.68,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 3476026.8,
+          "rice": 252099.88,
+          "corn": 27549918.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "FSM": {
+      "gdp": {
+        "value": 471425099.488675,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 271.99,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 181.54,
+          "corn": 90.45
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MDA": {
+      "gdp": {
+        "value": 18200340853.6517,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2906500.8,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1555023.8,
+          "corn": 1351477.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MCO": {
+      "gdp": {
+        "value": 11125783372.4794,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "MNG": {
+      "gdp": {
+        "value": 23794540024.5132,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 41410.95890410959,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 443415.6,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 443415.6
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MNE": {
+      "gdp": {
+        "value": 8270016670.86774,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4904.14,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2221.84,
+          "corn": 2682.3
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 442000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "MAR": {
+      "gdp": {
+        "value": 160610994054.734,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 271.2328767123288,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4274787.4,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 4158471.5,
+          "rice": 56222.0,
+          "corn": 60093.9
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MOZ": {
+      "gdp": {
+        "value": 22745341305.0622,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2302669.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 16000.0,
+          "rice": 161920.0,
+          "corn": 2124749.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 14600.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "MMR": {
+      "gdp": {
+        "value": 74068349523.8095,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 26816.438356164384,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 27930000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 80000.0,
+          "rice": 25650000.0,
+          "corn": 2200000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NAM": {
+      "gdp": {
+        "value": 13372354511.716,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 130305.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 24696.0,
+          "corn": 105609.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NRU": {
+      "gdp": {
+        "value": 162588620.632234,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "NPL": {
+      "gdp": {
+        "value": 42914268286.7109,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 10799152.2,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2098462.2,
+          "rice": 5724200.0,
+          "corn": 2976490.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NLD": {
+      "gdp": {
+        "value": 1214927698572.66,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 40432.87671232877,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1248750.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1096820.0,
+          "rice": 0.0,
+          "corn": 151930.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NCL": {
+      "gdp": {
+        "value": 8548919387.12607,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2914.66,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 12.37,
+          "corn": 2902.29
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NZL": {
+      "gdp": {
+        "value": 260172385097.616,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 62769.86301369863,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 555969.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 391615.0,
+          "corn": 164354.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NIC": {
+      "gdp": {
+        "value": 19693982967.5926,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 854824.72,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 498969.1,
+          "corn": 355855.62
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NER": {
+      "gdp": {
+        "value": 19876128485.7857,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 22673.972602739726,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 162487.19,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 5495.3,
+          "rice": 142600.0,
+          "corn": 14391.89
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "NGA": {
+      "gdp": {
+        "value": 252261880141.151,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 2513800.0,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 20007957.03,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 52757.03,
+          "rice": 8902200.0,
+          "corn": 11053000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MKD": {
+      "gdp": {
+        "value": 16951682245.4202,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 368338.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 215165.0,
+          "rice": 19997.0,
+          "corn": 133176.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "MNP": {
+      "gdp": {
+        "value": 1096000000.0,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "NOR": {
+      "gdp": {
+        "value": 483592648313.301,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 2736380.821917808,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 172000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 172000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "OMN": {
+      "gdp": {
+        "value": 107137198769.386,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1527353.4246575343,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 10330.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 7892.0,
+          "corn": 2438.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PAK": {
+      "gdp": {
+        "value": 371570000121.266,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 150438.35616438356,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 52811524.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 28160500.0,
+          "rice": 14803800.0,
+          "corn": 9847224.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 56300.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "PLW": {
+      "gdp": {
+        "value": 276733062.744141,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PAN": {
+      "gdp": {
+        "value": 86523959131.7472,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 596270.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 436135.0,
+          "corn": 160135.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PNG": {
+      "gdp": {
+        "value": 31800428265.5246,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 92342.46575342465,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 13797.37,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 885.01,
+          "corn": 12912.36
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PRY": {
+      "gdp": {
+        "value": 44458118397.4445,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 6758310.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1288310.0,
+          "rice": 978450.0,
+          "corn": 4491550.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PER": {
+      "gdp": {
+        "value": 289221969062.941,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 166210.95890410958,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 5201577.86,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 193589.66,
+          "rice": 3367614.2,
+          "corn": 1640374.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PHL": {
+      "gdp": {
+        "value": 461617509782.355,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 34717.808219178085,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 28464566.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 20059562.0,
+          "corn": 8405004.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "POL": {
+      "gdp": {
+        "value": 917767106146.761,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 34413.69863013698,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 21914280.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 12932390.0,
+          "rice": 0.0,
+          "corn": 8981890.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PRT": {
+      "gdp": {
+        "value": 313271185085.102,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 980710.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 34670.0,
+          "rice": 178830.0,
+          "corn": 767210.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "PRI": {
+      "gdp": {
+        "value": 126029527033.705,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3952.42,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 3628.38,
+          "corn": 324.04
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "QAT": {
+      "gdp": {
+        "value": 219162637362.637,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 2405068.493150685,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2016.4,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2.4,
+          "corn": 2014.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ROU": {
+      "gdp": {
+        "value": 382564217988.866,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 91350.68493150685,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 18380140.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 9624070.0,
+          "rice": 12070.0,
+          "corn": 8744000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "RUS": {
+      "gdp": {
+        "value": 2173835806671.66,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 16772150.684931507,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 109165700.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 91500000.0,
+          "rice": 1065700.0,
+          "corn": 16600000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 6300000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "RWA": {
+      "gdp": {
+        "value": 14251642235.0968,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 658775.88,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 16655.89,
+          "rice": 133628.02,
+          "corn": 508491.97
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "WSM": {
+      "gdp": {
+        "value": 1175749785.65113,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "SMR": {
+      "gdp": {
+        "value": 2027527227.831,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "STP": {
+      "gdp": {
+        "value": 822154621.088897,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 786.98,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 786.98
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SAU": {
+      "gdp": {
+        "value": 1239804533333.33,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 16255512.328767123,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 983835.29,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 922773.8,
+          "rice": 816.48,
+          "corn": 60245.01
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 5800000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "SEN": {
+      "gdp": {
+        "value": 32808056600.9436,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2448700.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 1519700.0,
+          "corn": 929000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SRB": {
+      "gdp": {
+        "value": 90097765959.1114,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 35534.24657534246,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 10079684.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 3448700.0,
+          "corn": 6630984.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SYC": {
+      "gdp": {
+        "value": 2167239562.46013,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "SLE": {
+      "gdp": {
+        "value": 6971127235.3123,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1424500.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 1399500.0,
+          "corn": 25000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 974000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "SGP": {
+      "gdp": {
+        "value": 547386645891.847,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "SXM": {
+      "gdp": {
+        "value": 1797836665.95136,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "SVK": {
+      "gdp": {
+        "value": 140934076532.375,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 364.3835616438356,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3596260.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2490600.0,
+          "rice": 0.0,
+          "corn": 1105660.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SVN": {
+      "gdp": {
+        "value": 72972015197.3859,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 8.219178082191782,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 534450.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 145420.0,
+          "rice": 0.0,
+          "corn": 389030.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SLB": {
+      "gdp": {
+        "value": 1583964703.75061,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2752.61,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 2752.61
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SOM": {
+      "gdp": {
+        "value": 11967000000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 78060.22,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1060.22,
+          "rice": 2000.0,
+          "corn": 75000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ZAF": {
+      "gdp": {
+        "value": 401144998373.585,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 7430.13698630137,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 18483082.07,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2050000.0,
+          "rice": 3082.07,
+          "corn": 16430000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ESP": {
+      "gdp": {
+        "value": 1725671652742.19,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 4534.246575342466,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 7218690.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 4049230.0,
+          "rice": 334100.0,
+          "corn": 2835360.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "LKA": {
+      "gdp": {
+        "value": 98963185509.6499,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4734680.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 4513431.0,
+          "corn": 221249.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "KNA": {
+      "gdp": {
+        "value": 1122388888.88889,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "LCA": {
+      "gdp": {
+        "value": 2549062962.96296,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 0.0,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 0.0
+        },
+        "year": 1980,
+        "lag_note": "lagged; release: 1980-12"
+      }
+    },
+    "MAF": {
+      "gdp": {
+        "value": 649206262.847519,
+        "unit": "USD",
+        "year": 2021,
+        "lag_note": "lagged; release: 2021-12"
+      }
+    },
+    "VCT": {
+      "gdp": {
+        "value": 1157207407.40741,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 633.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 0.0,
+          "corn": 633.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SDN": {
+      "gdp": {
+        "value": 49672435513.1126,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 59216.438356164384,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 423153.24,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 378000.0,
+          "rice": 21880.0,
+          "corn": 23273.24
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SUR": {
+      "gdp": {
+        "value": 4416775112.09627,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 31605.479452054795,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 203185.31,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 203155.94,
+          "corn": 29.37
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SWE": {
+      "gdp": {
+        "value": 603715224265.798,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2783900.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 2768200.0,
+          "rice": 0.0,
+          "corn": 15700.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "CHE": {
+      "gdp": {
+        "value": 936564198048.516,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 582763.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 447449.0,
+          "corn": 135314.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "SYR": {
+      "gdp": {
+        "value": 23622827079.5047,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      },
+      "oil_production": {
+        "value": 52816.438356164384,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 3643014.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 3080351.0,
+          "rice": 100.0,
+          "corn": 562563.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TJK": {
+      "gdp": {
+        "value": 14204575548.5536,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 312.32876712328766,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1195484.66,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 861000.0,
+          "rice": 134484.66,
+          "corn": 200000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TZA": {
+      "gdp": {
+        "value": 78844405385.2195,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 11685471.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 86522.0,
+          "rice": 3588000.0,
+          "corn": 8010949.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 40900.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "THA": {
+      "gdp": {
+        "value": 526517658841.684,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 394808.2191780822,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 38026443.48,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1321.48,
+          "rice": 33070956.0,
+          "corn": 4954166.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TLS": {
+      "gdp": {
+        "value": 1865608515.41321,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 77191.78082191781,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 168000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 83000.0,
+          "corn": 85000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TGO": {
+      "gdp": {
+        "value": 10651180146.531,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1196100.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 183100.0,
+          "corn": 1013000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TON": {
+      "gdp": {
+        "value": 591139749.44287,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "TTO": {
+      "gdp": {
+        "value": 25633544529.4849,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 107838.35616438356,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 5326.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 326.0,
+          "corn": 5000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TUN": {
+      "gdp": {
+        "value": 51332285656.5422,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 47347.94520547945,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 400000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 400000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TUR": {
+      "gdp": {
+        "value": 1359123768774.12,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 87002.7397260274,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 31900000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 22000000.0,
+          "rice": 900000.0,
+          "corn": 9000000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 3200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "TKM": {
+      "gdp": {
+        "value": 51387209872.2994,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 287076.7123287671,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 1191010.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1100000.0,
+          "rice": 86616.7,
+          "corn": 4393.3
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TCA": {
+      "gdp": {
+        "value": 1745378000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "TUV": {
+      "gdp": {
+        "value": 62280311.5852172,
+        "unit": "USD",
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "UGA": {
+      "gdp": {
+        "value": 53911907086.1525,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3085000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 25000.0,
+          "rice": 260000.0,
+          "corn": 2800000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "UKR": {
+      "gdp": {
+        "value": 190741262414.705,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 77646.57534246576,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 52666690.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 21625170.0,
+          "rice": 11080.0,
+          "corn": 31030440.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ARE": {
+      "gdp": {
+        "value": 552324846834.581,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 5727279.452054794,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 22043.6,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 30.0,
+          "corn": 22013.6
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "GBR": {
+      "gdp": {
+        "value": 3686033044482.13,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 968591.7808219178,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 13980785.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 13980000.0,
+          "corn": 785.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "USA": {
+      "gdp": {
+        "value": 28750956130731.2,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 27335298.630136985,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 448909900.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 49313930.0,
+          "rice": 9901510.0,
+          "corn": 389694460.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 13900.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "URY": {
+      "gdp": {
+        "value": 80961511073.5797,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 2982400.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 1343800.0,
+          "rice": 1372700.0,
+          "corn": 265900.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "UZB": {
+      "gdp": {
+        "value": 114965293466.611,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 61421.91780821918,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 7608590.7,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6471502.5,
+          "rice": 355674.5,
+          "corn": 781413.7
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "VUT": {
+      "gdp": {
+        "value": 1117972034.22642,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 983.1,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 983.1
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "VEN": {
+      "gdp": {
+        "value": 119802963257.783,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 1578117.808219178,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 2072949.1700000002,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 579.11,
+          "rice": 722370.06,
+          "corn": 1350000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "VNM": {
+      "gdp": {
+        "value": 476388230307.175,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 270961.6438356164,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 47934842.5,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 43497624.0,
+          "corn": 4437218.5
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 4200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "Wikipedia list of countries by gold production"
+      }
+    },
+    "VIR": {
+      "gdp": {
+        "value": 4672000000.0,
+        "unit": "USD",
+        "year": 2022,
+        "lag_note": "lagged; release: 2022-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "PSE": {
+      "gdp": {
+        "value": 13711100000.0,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 35699.98,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 35699.98
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ZMB": {
+      "gdp": {
+        "value": 25303185342.2511,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 3601857.4499999997,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 277491.84,
+          "rice": 62679.81,
+          "corn": 3261685.8
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ZWE": {
+      "gdp": {
+        "value": 41539411516.4448,
+        "unit": "USD",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 934772.5,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 300000.0,
+          "rice": 73.5,
+          "corn": 634699.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ANT": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "COK": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "ERI": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 45000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 25000.0,
+          "corn": 20000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "ESH": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "FLK": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "GIB": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "GLP": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 100.0,
+        "unit": "吨/年",
+        "by_category": {
+          "corn": 100.0
+        },
+        "year": 1977,
+        "lag_note": "lagged; release: 1977-12"
+      }
+    },
+    "GUF": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 15163.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 15073.0,
+          "corn": 90.0
+        },
+        "year": 2006,
+        "lag_note": "lagged; release: 2006-12"
+      }
+    },
+    "MSR": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "MTQ": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "NIU": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "PRK": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 4143155.23,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 67367.33,
+          "rice": 1775787.9,
+          "corn": 2300000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "REU": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 15185.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 185.0,
+          "corn": 15000.0
+        },
+        "year": 2006,
+        "lag_note": "lagged; release: 2006-12"
+      }
+    },
+    "SHN": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "SPM": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "SSD": {
+      "oil_production": {
+        "value": 136131.50684931508,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 174000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 33000.0,
+          "corn": 141000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "TWN": {
+      "oil_production": {
+        "value": 397.26027397260276,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      },
+      "grain_production": {
+        "total": 1710902.3900000001,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6000.0,
+          "rice": 1461000.0,
+          "corn": 243902.39
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    },
+    "VGB": {
+      "oil_production": {
+        "value": 0.0,
+        "unit": "桶/日",
+        "year": 2016,
+        "month": null,
+        "lag_note": "lagged; release: 2016-12"
+      }
+    },
+    "YEM": {
+      "oil_production": {
+        "value": 56761.643835616436,
+        "unit": "桶/日",
+        "year": 2024,
+        "month": null,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "grain_production": {
+        "total": 160000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 100000.0,
+          "corn": 60000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      }
+    }
+  }
+}

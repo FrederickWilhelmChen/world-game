@@ -1,0 +1,183 @@
+{
+  "last_updated": "2026-02-01T13:29:25Z",
+  "source": "USGS MCS blocked (403); gold from Wikipedia",
+  "nonferrous": {
+    "unit": "吨/年",
+    "data": {}
+  },
+  "gold": {
+    "unit": "公斤/年",
+    "data": {
+      "CHN": {
+        "value": 93000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "IND": {
+        "value": 25000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "RUS": {
+        "value": 6300000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "AUS": {
+        "value": 100000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "BRA": {
+        "value": 33000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "MYS": {
+        "value": 130000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "SAU": {
+        "value": 5800000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "USA": {
+        "value": 13900.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "IRN": {
+        "value": 1000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "MOZ": {
+        "value": 14600.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "FRA": {
+        "value": 118000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "KAZ": {
+        "value": 4900000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "IDN": {
+        "value": 32000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "GRC": {
+        "value": 1200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "TUR": {
+        "value": 3200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "GHA": {
+        "value": 773000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "MNE": {
+        "value": 442000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "BIH": {
+        "value": 700000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "JAM": {
+        "value": 6100000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "VNM": {
+        "value": 4200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "GIN": {
+        "value": 130000000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "SLE": {
+        "value": 974000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "GUY": {
+        "value": 706000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "DOM": {
+        "value": 104000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "PAK": {
+        "value": 56300.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "COL": {
+        "value": 48000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "TZA": {
+        "value": 40900.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "HRV": {
+        "value": 17800.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      }
+    },
+    "source": "Wikipedia list of countries by gold production",
+    "year": 2024
+  }
+}

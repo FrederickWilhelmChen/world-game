@@ -15,7 +15,6 @@ world-game/
 │   ├── api/
 │   │   └── country_data.py    # /api/country/<iso_code> 接口
 │   ├── crawler/
-│   │   ├── scheduler.py       # APScheduler定时任务调度
 │   │   ├── worldbank_gdp.py   # GDP数据爬虫（季度更新）
 │   │   ├── eia_oil.py         # 原油产量爬虫（月度更新）
 │   │   ├── fao_agriculture.py # 粮食产量爬虫（年度更新）
@@ -156,13 +155,8 @@ def check_data_freshness(data_date, current_date, max_lag_days=30):
 - [ ] 提取有色金属和黄金数据
 - [ ] 存储到data/raw/minerals/
 
-**2.5 数据整合与调度**
+**2.5 数据整合**
 - [ ] 实现数据合并逻辑
-- [ ] 创建APScheduler定时任务
-- [ ] 配置差异化更新频率：
-  - GDP: 每季度（cron: `0 0 1 */3 *`）
-  - 原油: 每月（cron: `0 0 1 * *`）
-  - 粮食/矿产: 每年（cron: `0 0 1 1 *`）
 
 ### 阶段3：前端地图开发（预计2-3小时）
 
@@ -215,7 +209,6 @@ def check_data_freshness(data_date, current_date, max_lag_days=30):
 | Flask-CORS | 跨域支持 | >=4.0.0 |
 | requests | HTTP请求 | >=2.28.0 |
 | beautifulsoup4 | HTML解析 | >=4.11.0 |
-| APScheduler | 定时任务 | >=3.10.0 |
 | pandas | 数据处理 | >=1.5.0 |
 | python-dateutil | 日期处理 | >=2.8.0 |
 
@@ -401,58 +394,6 @@ GET /api/health
 
 ---
 
-## 定时任务配置
-
-### APScheduler配置
-
-```python
-# scheduler.py
-from apscheduler.schedulers.background import BackgroundScheduler
-from apscheduler.triggers.cron import CronTrigger
-
-scheduler = BackgroundScheduler()
-
-# GDP数据 - 每季度第一天 00:00
-scheduler.add_job(
-    crawl_gdp,
-    trigger=CronTrigger(month='1,4,7,10', day=1, hour=0, minute=0),
-    id='gdp_crawler',
-    name='GDP Data Crawler'
-)
-
-# 原油产量 - 每月第一天 00:00
-scheduler.add_job(
-    crawl_oil,
-    trigger=CronTrigger(day=1, hour=0, minute=0),
-    id='oil_crawler',
-    name='Oil Production Crawler'
-)
-
-# 粮食和矿产 - 每年1月1日 00:00
-scheduler.add_job(
-    crawl_agriculture,
-    trigger=CronTrigger(month=1, day=1, hour=0, minute=0),
-    id='agriculture_crawler',
-    name='Agriculture Data Crawler'
-)
-
-scheduler.add_job(
-    crawl_minerals,
-    trigger=CronTrigger(month=1, day=1, hour=1, minute=0),
-    id='minerals_crawler',
-    name='Minerals Data Crawler'
-)
-
-# 数据整合 - 所有爬虫完成后执行
-scheduler.add_job(
-    merge_all_data,
-    trigger=CronTrigger(hour='*/1'),  # 每小时检查一次
-    id='data_merger',
-    name='Data Merger'
-)
-```
-
----
 
 ## 风险评估与备选方案
 
@@ -545,7 +486,6 @@ scheduler.add_job(
 ### 技术文档
 - Flask: https://flask.palletsprojects.com/
 - Leaflet.js: https://leafletjs.com/
-- APScheduler: https://apscheduler.readthedocs.io/
 - GeoJSON: https://geojson.org/
 
 ---

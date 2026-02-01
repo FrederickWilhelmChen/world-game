@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Game Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Spectral:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="/frontend/css/style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="hero">
+        <p class="kicker">World Simulation</p>
+        <h1>World Game Atlas</h1>
+        <p class="lead">
+          Hover a country to inspect GDP, oil, grains, and metals as the data
+          updates.
+        </p>
+        <div class="hero-actions">
+          <button class="refresh-button" type="button" id="refresh-data">
+            Refresh data
+          </button>
+          <span class="refresh-status" id="refresh-status" aria-live="polite"></span>
+        </div>
+        <div class="legend">
+          <span class="legend-dot"></span>
+          <span>Capitals</span>
+        </div>
+      </header>
+      <section class="map-shell">
+        <div id="map" aria-label="Interactive world map"></div>
+        <div id="tooltip" class="tooltip" aria-hidden="true"></div>
+      </section>
+      <section class="detail-panel" id="country-detail" aria-live="polite">
+        <div class="detail-header">
+          <h2 data-role="country-name">Select a country</h2>
+          <p data-role="country-meta">Click a highlighted country to see details.</p>
+        </div>
+        <div class="detail-grid" data-role="country-metrics"></div>
+      </section>
+    </main>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script type="module" src="/frontend/js/map.js"></script>
+  </body>
+</html>
