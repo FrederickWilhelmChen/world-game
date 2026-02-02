@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01T17:37:41Z",
+  "last_updated": "2026-02-02T02:20:16Z",
   "source": "USGS Mineral Commodity Summaries 2025",
   "nonferrous": {
     "unit": "吨/年",
@@ -7,9 +7,9 @@
       "USA": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 670.0,
-          "copper": 890.0,
-          "nickel": 8000.0
+          "aluminum": 670000.0,
+          "copper": 890000.0,
+          "nickel": 8000000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -17,8 +17,8 @@
       "AUS": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 1500.0,
-          "copper": 460.0,
+          "aluminum": 1500000.0,
+          "copper": 460000.0,
           "nickel": 110000.0
         },
         "year": 2024,
@@ -27,7 +27,7 @@
       "BHR": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 1600.0
+          "aluminum": 1600000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -35,7 +35,7 @@
       "BRA": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 1100.0,
+          "aluminum": 1100000.0,
           "nickel": 77000.0
         },
         "year": 2024,
@@ -44,8 +44,8 @@
       "CAN": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 3300.0,
-          "copper": 320.0,
+          "aluminum": 3300000.0,
+          "copper": 320000.0,
           "nickel": 190000.0
         },
         "year": 2024,
@@ -54,8 +54,8 @@
       "CHN": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 43000.0,
-          "copper": 12000.0,
+          "aluminum": 43000000.0,
+          "copper": 12000000.0,
           "nickel": 120000.0
         },
         "year": 2024,
@@ -64,7 +64,7 @@
       "ISL": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 780.0
+          "aluminum": 780000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -72,8 +72,8 @@
       "IND": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 4200.0,
-          "copper": 510.0
+          "aluminum": 4200000.0,
+          "copper": 510000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -81,7 +81,7 @@
       "MYS": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 870.0
+          "aluminum": 870000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -89,7 +89,7 @@
       "NOR": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 1300.0
+          "aluminum": 1300000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -97,8 +97,8 @@
       "RUS": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 3800.0,
-          "copper": 960.0,
+          "aluminum": 3800000.0,
+          "copper": 960000.0,
           "nickel": 210000.0
         },
         "year": 2024,
@@ -107,7 +107,7 @@
       "ARE": {
         "unit": "吨/年",
         "by_category": {
-          "aluminum": 2700.0
+          "aluminum": 2700000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -115,7 +115,7 @@
       "CHL": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 1900.0
+          "copper": 5330000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -123,7 +123,7 @@
       "IDN": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 350.0,
+          "copper": 350000.0,
           "nickel": 2200000.0
         },
         "year": 2024,
@@ -132,7 +132,7 @@
       "KAZ": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 470.0
+          "copper": 470000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -140,7 +140,7 @@
       "MEX": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 350.0
+          "copper": 350000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -148,7 +148,7 @@
       "PER": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 390.0
+          "copper": 390000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -156,7 +156,7 @@
       "POL": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 590.0
+          "copper": 590000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -164,7 +164,7 @@
       "ZMB": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 170.0
+          "copper": 170000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -172,7 +172,7 @@
       "DEU": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 630.0
+          "copper": 630000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -180,7 +180,7 @@
       "JPN": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 1600.0
+          "copper": 1600000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
@@ -188,7 +188,7 @@
       "KOR": {
         "unit": "吨/年",
         "by_category": {
-          "copper": 620.0
+          "copper": 620000.0
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"

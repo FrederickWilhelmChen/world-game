@@ -91,7 +91,7 @@ async function refreshAllData() {
     return;
   }
   refreshButton.disabled = true;
-  setRefreshStatus("Refreshing data...");
+  setRefreshStatus("正在刷新数据...");
 
   try {
     const response = await fetch("/api/data/refresh", {
@@ -102,14 +102,14 @@ async function refreshAllData() {
       body: JSON.stringify({ scope: "all" }),
     });
     if (!response.ok) {
-      throw new Error("refresh failed");
+      throw new Error("刷新失败");
     }
     const payload = await response.json();
     clearCountryCache();
     const stamp = payload?.last_crawl || payload?.generated_at || "";
-    setRefreshStatus(stamp ? `Updated: ${stamp}` : "Updated");
+    setRefreshStatus(stamp ? `已更新: ${stamp}` : "已更新");
   } catch (error) {
-    setRefreshStatus("Refresh failed");
+    setRefreshStatus("刷新失败");
   } finally {
     refreshButton.disabled = false;
   }
@@ -198,10 +198,10 @@ function initCountryDetailsPanel() {
   const render = (detail) => {
     if (!detail) {
       if (nameEl) {
-        nameEl.textContent = "Select a country";
+        nameEl.textContent = "选择国家";
       }
       if (metaEl) {
-        metaEl.textContent = "Click a highlighted country to see details.";
+        metaEl.textContent = "点击高亮国家查看详情。";
       }
       if (metricsEl) {
         metricsEl.innerHTML = "";
@@ -214,7 +214,7 @@ function initCountryDetailsPanel() {
       nameEl.textContent = safeText(name);
     }
     if (metaEl) {
-      const capitalText = capital ? `Capital: ${capital}` : "Capital: —";
+      const capitalText = capital ? `首都: ${capital}` : "首都: —";
       metaEl.textContent = capitalText;
     }
 
@@ -223,7 +223,7 @@ function initCountryDetailsPanel() {
     }
 
     if (!data) {
-      metricsEl.innerHTML = "<div class=\"detail-empty\">No data available.</div>";
+      metricsEl.innerHTML = "<div class=\"detail-empty\">无可用数据。</div>";
       return;
     }
 
@@ -247,21 +247,21 @@ function initCountryDetailsPanel() {
       }),
       buildMetric({
         icon: "🛢️",
-        label: "Oil",
+        label: "石油",
         value: oilValue,
         unit: data?.oil_production?.unit,
         note: data?.oil_production?.lag_note,
       }),
       buildMetric({
         icon: "🌾",
-        label: "Grain",
+        label: "粮食",
         value: grainValue,
         unit: data?.grain_production?.unit,
         note: data?.grain_production?.lag_note,
       }),
       buildMetric({
-        icon: "🪙",
-        label: "Gold",
+        icon: "🏅",
+        label: "黄金",
         value: goldValue,
         unit: data?.gold_production?.unit,
         note: data?.gold_production?.lag_note,
@@ -270,11 +270,17 @@ function initCountryDetailsPanel() {
       .filter(Boolean)
       .join("");
 
+    const categoryLabels = {
+      aluminum: "铝",
+      copper: "铜",
+      nickel: "镍"
+    };
+
     const metalsHtml = metals?.by_category
       ? `<div class="detail-card">
           <div class="detail-card-header">
             <span class="detail-icon">⛏️</span>
-            <span class="detail-label">Nonferrous</span>
+            <span class="detail-label">有色金属</span>
           </div>
           <div class="detail-sublist">
             ${Object.entries(metals.by_category)
@@ -283,12 +289,14 @@ function initCountryDetailsPanel() {
                 if (!compact) {
                   return "";
                 }
-                return `<div class=\"detail-subitem\"><span>${key}</span><span>${compact}</span></div>`;
+                const label = categoryLabels[key] || key;
+                return `<div class="detail-subitem"><span>${label}</span><span>${compact}</span></div>`;
               })
               .filter(Boolean)
               .join("")}
           </div>
-          ${metals?.lag_note ? `<div class=\"detail-note\">${metals.lag_note}</div>` : ""}
+          ${metals?.unit ? `<div class="detail-unit">单位: ${metals.unit}</div>` : ""}
+          ${metals?.lag_note ? `<div class="detail-note">${metals.lag_note}</div>` : ""}
         </div>`
       : "";
 
@@ -315,38 +323,20 @@ function renderMetric(label, value, unit, note) {
   `;
 }
 
-function renderSublist(items) {
-  if (!items || Object.keys(items).length === 0) {
-    return "";
-  }
-  const listItems = Object.entries(items)
-    .map(([key, value]) => {
-      const compact = formatCompact(value);
-      if (!compact) {
-        return "";
-      }
-      return `<li>${key}: ${compact}</li>`;
-    })
-    .filter(Boolean)
-    .join("");
-  if (!listItems) {
-    return "";
-  }
-  return `<ul class="metric-sublist">${listItems}</ul>`;
-}
+
 
 function buildTooltipContent({ name, capital, data, loading }) {
   const title = `<h3>${name}</h3>`;
   const capitalLine = capital
-    ? `<p>Capital: ${capital}</p>`
-    : `<p>Capital: —</p>`;
+    ? `<p>首都: ${capital}</p>`
+    : `<p>首都: —</p>`;
 
   if (loading) {
-    return `${title}${capitalLine}<div class="metric">Loading data...</div>`;
+    return `${title}${capitalLine}<div class="metric">正在加载数据...</div>`;
   }
 
   if (!data) {
-    return `${title}${capitalLine}<div class="metric">No data available.</div>`;
+    return `${title}${capitalLine}<div class="metric">无可用数据。</div>`;
   }
 
   const number = (value) => (value === null || value === undefined ? null : value);
@@ -359,13 +349,13 @@ function buildTooltipContent({ name, capital, data, loading }) {
       data?.gdp?.lag_note
     ),
     renderMetric(
-      "Oil production",
+      "石油产量",
       formatCompact(number(data?.oil_production?.value)),
       data?.oil_production?.unit,
       data?.oil_production?.lag_note
     ),
     renderMetric(
-      "Grain production",
+      "粮食产量",
       formatCompact(number(data?.grain_production?.total)),
       data?.grain_production?.unit,
       data?.grain_production?.lag_note
@@ -373,14 +363,41 @@ function buildTooltipContent({ name, capital, data, loading }) {
   ].filter(Boolean).join("");
 
   const metals = data?.nonferrous_metals;
+  const categoryLabels = {
+    aluminum: "铝",
+    copper: "铜",
+    nickel: "镍"
+  };
+
+  const renderLocalizedSublist = (items) => {
+    if (!items || Object.keys(items).length === 0) {
+      return "";
+    }
+    const listItems = Object.entries(items)
+      .map(([key, value]) => {
+        const compact = formatCompact(value);
+        if (!compact) {
+          return "";
+        }
+        const label = categoryLabels[key] || key;
+        return `<li>${label}: ${compact}</li>`;
+      })
+      .filter(Boolean)
+      .join("");
+    if (!listItems) {
+      return "";
+    }
+    return `<ul class="metric-sublist">${listItems}</ul>`;
+  };
+
   const metalsSection = metals
     ? `
         <div class="metric">
-          <div class="metric-label">Nonferrous metals</div>
-          <div class="metric-value">Year ${metals?.year || "—"}${
+          <div class="metric-label">有色金属产量</div>
+          <div class="metric-value">年份 ${metals?.year || "—"}${
             metals?.unit ? ` · ${metals.unit}` : ""
           }</div>
-           ${renderSublist(metals?.by_category)}
+           ${renderLocalizedSublist(metals?.by_category)}
           ${metals?.lag_note ? `<div class="metric-note">${metals.lag_note}</div>` : ""}
         </div>
       `
@@ -388,7 +405,7 @@ function buildTooltipContent({ name, capital, data, loading }) {
 
   const gold = data?.gold_production
     ? renderMetric(
-        "Gold production",
+        "黄金产量",
         formatCompact(number(data?.gold_production?.value)),
         data?.gold_production?.unit,
         data?.gold_production?.lag_note

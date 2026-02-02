@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,21 +21,20 @@
   <body>
     <main class="layout">
       <header class="hero">
-        <p class="kicker">World Simulation</p>
-        <h1>World Game Atlas</h1>
+        <p class="kicker">世界模拟</p>
+        <h1>世界游戏图鉴</h1>
         <p class="lead">
-          Hover a country to inspect GDP, oil, grains, and metals as the data
-          updates.
+          悬停在国家上查看 GDP、石油、粮食和金属数据，数据实时更新。
         </p>
         <div class="hero-actions">
           <button class="refresh-button" type="button" id="refresh-data">
-            Refresh data
+            刷新数据
           </button>
           <span class="refresh-status" id="refresh-status" aria-live="polite"></span>
         </div>
         <div class="legend">
           <span class="legend-dot"></span>
-          <span>Capitals</span>
+          <span>首都</span>
         </div>
       </header>
       <section class="map-shell">
@@ -44,8 +43,8 @@
       </section>
       <section class="detail-panel" id="country-detail" aria-live="polite">
         <div class="detail-header">
-          <h2 data-role="country-name">Select a country</h2>
-          <p data-role="country-meta">Click a highlighted country to see details.</p>
+          <h2 data-role="country-name">选择国家</h2>
+          <p data-role="country-meta">点击高亮国家查看详情。</p>
         </div>
         <div class="detail-grid" data-role="country-metrics"></div>
       </section>

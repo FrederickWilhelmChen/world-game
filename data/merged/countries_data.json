@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-01T17:09:34Z",
+    "generated_at": "2026-02-02T02:50:50Z",
     "version": "0.1",
-    "last_crawl": "2026-02-01T17:09:34+00:00Z"
+    "last_crawl": "2026-02-02T02:20:16+00:00Z"
   },
   "countries": {
     "AFG": {
@@ -247,12 +247,22 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 1500000.0,
+          "copper": 460000.0,
+          "nickel": 110000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 100000.0,
+        "value": 290000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "AUT": {
@@ -343,6 +353,14 @@
         "year": 2016,
         "month": null,
         "lag_note": "lagged; release: 2016-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 1600000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "BGD": {
@@ -586,13 +604,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 700.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "BWA": {
@@ -645,12 +656,21 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 1100000.0,
+          "nickel": 77000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 33000.0,
+        "value": 70000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "BRN": {
@@ -726,6 +746,13 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 60000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "BDI": {
@@ -852,6 +879,23 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 3300000.0,
+          "copper": 320000.0,
+          "nickel": 190000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_production": {
+        "value": 200000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "CYM": {
@@ -952,6 +996,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 5330000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "CHN": {
@@ -979,12 +1031,22 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 43000000.0,
+          "copper": 12000000.0,
+          "nickel": 120000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 93000.0,
+        "value": 380000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "COL": {
@@ -1013,11 +1075,11 @@
         "lag_note": "lagged; release: 2023-12"
       },
       "gold_production": {
-        "value": 48.0,
+        "value": 60000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "COM": {
@@ -1170,13 +1232,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 17.8,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "CUB": {
@@ -1360,13 +1415,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 104.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "ECU": {
@@ -1629,13 +1677,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 118.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "PYF": {
@@ -1752,6 +1793,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 630000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "GHA": {
@@ -1779,11 +1828,11 @@
         "lag_note": "lagged; release: 2023-12"
       },
       "gold_production": {
-        "value": 773.0,
+        "value": 130000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "GRC": {
@@ -1810,13 +1859,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 1200.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "GRL": {
@@ -1922,13 +1964,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 130000.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "GNB": {
@@ -1979,13 +2014,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 706.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "HTI": {
@@ -2102,6 +2130,14 @@
         "year": 2016,
         "month": null,
         "lag_note": "lagged; release: 2016-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 780000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "IND": {
@@ -2129,12 +2165,14 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
-      "gold_production": {
-        "value": 25000.0,
-        "unit": "公斤/年",
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 4200000.0,
+          "copper": 510000.0
+        },
         "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "IDN": {
@@ -2161,12 +2199,21 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 350000.0,
+          "nickel": 2200000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 32000.0,
+        "value": 100000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "IRN": {
@@ -2193,13 +2240,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 1000.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "IRQ": {
@@ -2336,13 +2376,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 6100.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "JPN": {
@@ -2369,6 +2402,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 1600000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "JOR": {
@@ -2421,12 +2462,20 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 470000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 4900.0,
+        "value": 130000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "KEN": {
@@ -2494,6 +2543,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 620000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "XKX": {
@@ -2856,12 +2913,13 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
-      "gold_production": {
-        "value": 130.0,
-        "unit": "公斤/年",
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 870000.0
+        },
         "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "MDV": {
@@ -2912,6 +2970,13 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 70000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "MLT": {
@@ -3023,6 +3088,21 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 350000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_production": {
+        "value": 130000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "FSM": {
@@ -3123,13 +3203,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 442.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "MAR": {
@@ -3182,13 +3255,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 14.6,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "MMR": {
@@ -3332,6 +3398,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "nickel": 110000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "NZL": {
@@ -3499,6 +3573,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 1300000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "OMN": {
@@ -3550,13 +3632,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 56.3,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "PLW": {
@@ -3667,6 +3742,21 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 390000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_production": {
+        "value": 100000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "PHL": {
@@ -3692,6 +3782,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "nickel": 330000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "POL": {
@@ -3718,6 +3816,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 590000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "PRT": {
@@ -3847,12 +3953,22 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 3800000.0,
+          "copper": 960000.0,
+          "nickel": 210000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 6300.0,
+        "value": 310000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "RWA": {
@@ -3952,13 +4068,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 5800.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "SEN": {
@@ -4049,13 +4158,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 974.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "SGP": {
@@ -4207,6 +4309,13 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 100000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "ESP": {
@@ -4512,11 +4621,11 @@
         "lag_note": "lagged; release: 2023-12"
       },
       "gold_production": {
-        "value": 40.9,
+        "value": 60000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "THA": {
@@ -4683,13 +4792,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 3200.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "TKM": {
@@ -4816,6 +4918,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 2700000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "GBR": {
@@ -4868,12 +4978,22 @@
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
       },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "aluminum": 670000.0,
+          "copper": 890000.0,
+          "nickel": 8000000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
+      },
       "gold_production": {
-        "value": 13.9,
+        "value": 160000.0,
         "unit": "公斤/年",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "URY": {
@@ -4926,6 +5046,13 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_production": {
+        "value": 120000.0,
+        "unit": "公斤/年",
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12",
+        "source": "USGS MCS 2025 - Mineral Commodity Summaries"
       }
     },
     "VUT": {
@@ -5001,13 +5128,6 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "gold_production": {
-        "value": 4200.0,
-        "unit": "公斤/年",
-        "year": 2024,
-        "lag_note": "lagged; release: 2024-12",
-        "source": "Our World in Data / Wikipedia list of countries by gold production"
       }
     },
     "VIR": {
@@ -5073,6 +5193,14 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "nonferrous_metals": {
+        "unit": "吨/年",
+        "by_category": {
+          "copper": 170000.0
+        },
+        "year": 2024,
+        "lag_note": "lagged; release: 2024-12"
       }
     },
     "ZWE": {
