@@ -24,7 +24,8 @@ def crawl_oil():
         iso = str(row.iso_code).upper()
         year = int(row.year)
         production_twh = float(row.oil_production)
-        barrels_per_day = (production_twh * 1_000_000) / 365.0
+        # 1 TWh = 1,000,000 MWh, 1桶石油 ≈ 1.7 MWh
+        barrels_per_day = (production_twh * 1_000_000) / 1.7 / 365.0
 
         data_date = datetime(year, 12, 31)
         values[iso] = {

@@ -30,14 +30,13 @@
 - 单位: 吨/年
 - 落地目录: `data/raw/minerals/*.json`
 
-## 黄金产量（补充数据源）
+## 黄金产量
 
-由于 USGS MCS 的公开 Excel 有时会触发 403，因此新增公开可用的数据源作为黄金产量的补充来源。
-
-- 主要来源: USGS MCS (当可访问时)
-- 备用来源: Wikipedia - Lists of countries by mineral production（Gold 表）
-- 抓取方式: `backend/crawler/usgs_minerals.py` 在 USGS 失败时自动切换
-- 单位: 公斤/年（Wikipedia 表格数据以吨/年计，已转换为公斤/年）
+- 来源: USGS Mineral Commodity Summaries 2025 (MCS) - ScienceBase 数据发布
+- 数据验证: 中国 ~380 吨/年，澳大利亚 ~290-296 吨/年（符合实际）
+- 抓取方式: `backend/crawler/usgs_minerals.py`
+- 备用来源: Wikipedia - Lists of countries by mineral production（当 USGS 不可访问时自动切换）
+- 单位: 公斤/年（数据源为 metric tons，已转换为公斤）
 - 落地目录: `data/raw/minerals/*.json`
 
 ## 数据刷新入口
