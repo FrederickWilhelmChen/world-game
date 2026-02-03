@@ -50,7 +50,7 @@
 
 - `frontend/js/map.js`
   - Leaflet 地图初始化与底图加载。
-  - 加载 `static/geojson/world_50m.geojson` 并渲染国家边界。
+  - 加载 `static/geojson/world_50m_custom.geojson` 并渲染国家边界。
   - 绑定鼠标悬停事件，触发数据加载与 Tooltip 展示。
   - 资本标注显示。
 
@@ -62,8 +62,8 @@
 
 ### 静态资源
 
-- `static/geojson/world_50m.geojson`
-  - Natural Earth 1:50m 国家边界数据（需下载并放置）。
+- `static/geojson/world_50m_custom.geojson`
+  - 基于 Natural Earth 1:50m，使用中国自然资源部官方边界数据替换中国几何，并移除台湾、索马里兰等争议要素。
 
 ## 运行数据流
 
