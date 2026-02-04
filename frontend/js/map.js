@@ -4,9 +4,43 @@ import { hideTooltip, initTooltip, moveTooltip, showTooltip } from "./tooltip.js
 const map = L.map("map", {
   minZoom: 2,
   maxZoom: 6,
-  worldCopyJump: true,
   zoomSnap: 0.5,
+  // 禁用地球环绕，防止左右两端出现空白
+  worldCopyJump: false,
+  // 限制地图边界到单个世界，避免多个地球副本
+  maxBounds: [[-90, -180], [90, 180]],
+  maxBoundsViscosity: 1.0,
 }).setView([20, 0], 2);
+
+// 让地图在容器中尽量“铺满”横向空间，减少两侧空白。
+// Leaflet 默认以世界宽度适配当前缩放级别；在宽屏容器里会出现左右留白。
+function fitWorldToViewport() {
+  try {
+    const size = map.getSize();
+    if (!size || !size.x) {
+      return;
+    }
+    // WebMercator 世界在 zoom=0 时宽度为 256px；每 +1 zoom 宽度翻倍。
+    // 取能覆盖当前容器宽度的最小 zoom。
+    const targetZoom = Math.max(map.getMinZoom(), Math.min(map.getMaxZoom(), Math.ceil(Math.log2(size.x / 256))));
+    const current = map.getZoom();
+    if (Number.isFinite(targetZoom) && targetZoom !== current) {
+      map.setZoom(targetZoom, { animate: false });
+    }
+  } catch (e) {
+    // Ignore.
+  }
+}
+
+// 初次加载和窗口尺寸变化时重新适配。
+fitWorldToViewport();
+window.addEventListener("resize", () => {
+  // 等布局稳定后再计算
+  window.requestAnimationFrame(() => {
+    map.invalidateSize({ pan: false, animate: false });
+    fitWorldToViewport();
+  });
+});
 
 // 使用 CartoDB Positron 底图（无行政边界，仅显示地形和海岸线）
 L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
@@ -21,18 +55,497 @@ initCountryDetailsPanel();
 let geojsonLayer;
 let activeIso = null;
 
-const baseStyle = {
-  color: "#2a3f4a",
-  weight: 1,
-  fillColor: "#d6c3a2",
-  fillOpacity: 0.85,
-};
+// Four blue shades (4-color palette). Used for adjacent-country coloring.
+const BLUE_PALETTE = [
+  "#d9f0ff",
+  "#bfe4ff",
+  "#8fc9ff",
+  "#66afe6",
+];
 
-const highlightStyle = {
-  color: "#b76e4c",
-  weight: 2,
-  fillOpacity: 0.95,
-};
+// Special-case China with a non-blue fill to avoid any adjacency misses.
+const CHINA_OVERRIDE_COLOR = "#f0c27b";
+
+const countryColorByIso = new Map();
+
+let hoverPopLayer = null;
+let hoverPopIso = null;
+let hoverPopRemoveTimer = null;
+
+let hoverIso = null;
+let hoverLeaveTimer = null;
+
+const countryLayersByIso = new Map();
+const countryFeaturesByIso = new Map();
+const countryDisplayNameByIso = new Map();
+
+const hoverFetchPromises = new Map();
+
+function hashString(value) {
+  if (!value) {
+    return 0;
+  }
+  let hash = 0;
+  for (let i = 0; i < value.length; i += 1) {
+    hash = (hash * 31 + value.charCodeAt(i)) | 0;
+  }
+  return Math.abs(hash);
+}
+
+function countryFillColor(iso) {
+  if (!iso || iso === "-99") {
+    return "#b9cde0";
+  }
+
+  if (String(iso).toUpperCase() === "CHN") {
+    return CHINA_OVERRIDE_COLOR;
+  }
+
+  const mapped = countryColorByIso.get(String(iso));
+  if (mapped) {
+    return mapped;
+  }
+
+  const idx = hashString(String(iso)) % BLUE_PALETTE.length;
+  return BLUE_PALETTE[idx];
+}
+
+function geometryRings(geometry) {
+  if (!geometry || !geometry.type) {
+    return [];
+  }
+  if (geometry.type === "Polygon") {
+    return geometry.coordinates || [];
+  }
+  if (geometry.type === "MultiPolygon") {
+    const polygons = geometry.coordinates || [];
+    const rings = [];
+    polygons.forEach((polygon) => {
+      (polygon || []).forEach((ring) => {
+        rings.push(ring);
+      });
+    });
+    return rings;
+  }
+  return [];
+}
+
+function buildFourColorMap(worldGeojson) {
+  countryColorByIso.clear();
+
+  const segToIsos = new Map();
+  const nodes = new Set();
+  const SCALE = 10000; // 1e-4 deg quantization to stabilize shared edges
+
+  const coordKey = (coord) => {
+    const x = Math.round((coord?.[0] ?? 0) * SCALE);
+    const y = Math.round((coord?.[1] ?? 0) * SCALE);
+    return `${x},${y}`;
+  };
+
+  const segKey = (a, b) => {
+    const ak = coordKey(a);
+    const bk = coordKey(b);
+    return ak < bk ? `${ak}|${bk}` : `${bk}|${ak}`;
+  };
+
+  const addSeg = (iso, a, b) => {
+    const key = segKey(a, b);
+    if (!segToIsos.has(key)) {
+      segToIsos.set(key, new Set());
+    }
+    segToIsos.get(key).add(iso);
+  };
+
+  const features = worldGeojson?.features || [];
+  for (const feature of features) {
+    const props = feature?.properties || {};
+    const iso = resolveIso(props);
+    if (!iso || iso === "-99") {
+      continue;
+    }
+    const isoKey = String(iso);
+    nodes.add(isoKey);
+
+    const rings = geometryRings(feature?.geometry);
+    for (const ring of rings) {
+      if (!Array.isArray(ring) || ring.length < 2) {
+        continue;
+      }
+      const firstKey = coordKey(ring[0]);
+      const lastKey = coordKey(ring[ring.length - 1]);
+      const closed = firstKey === lastKey;
+      const limit = closed ? ring.length - 1 : ring.length;
+      if (limit < 2) {
+        continue;
+      }
+      for (let i = 0; i < limit; i += 1) {
+        const a = ring[i];
+        const b = ring[(i + 1) % limit];
+        addSeg(isoKey, a, b);
+      }
+    }
+  }
+
+  const neighbors = new Map();
+  nodes.forEach((iso) => {
+    neighbors.set(iso, new Set());
+  });
+
+  for (const isoSet of segToIsos.values()) {
+    if (!isoSet || isoSet.size < 2) {
+      continue;
+    }
+    const list = Array.from(isoSet);
+    for (let i = 0; i < list.length; i += 1) {
+      for (let j = i + 1; j < list.length; j += 1) {
+        const a = list[i];
+        const b = list[j];
+        neighbors.get(a)?.add(b);
+        neighbors.get(b)?.add(a);
+      }
+    }
+  }
+
+  // DSATUR greedy coloring with 4 colors.
+  const colorIndex = new Map();
+  const satColors = new Map();
+  nodes.forEach((iso) => {
+    satColors.set(iso, new Set());
+  });
+
+  const degree = (iso) => neighbors.get(iso)?.size || 0;
+  const saturation = (iso) => satColors.get(iso)?.size || 0;
+
+  while (colorIndex.size < nodes.size) {
+    let pick = null;
+    for (const iso of nodes) {
+      if (colorIndex.has(iso)) {
+        continue;
+      }
+      if (!pick) {
+        pick = iso;
+        continue;
+      }
+      const s1 = saturation(iso);
+      const s2 = saturation(pick);
+      if (s1 !== s2) {
+        if (s1 > s2) {
+          pick = iso;
+        }
+        continue;
+      }
+      const d1 = degree(iso);
+      const d2 = degree(pick);
+      if (d1 !== d2) {
+        if (d1 > d2) {
+          pick = iso;
+        }
+        continue;
+      }
+      if (String(iso) < String(pick)) {
+        pick = iso;
+      }
+    }
+
+    const used = new Set();
+    (neighbors.get(pick) || new Set()).forEach((nb) => {
+      const c = colorIndex.get(nb);
+      if (c !== undefined && c !== null) {
+        used.add(c);
+      }
+    });
+
+    let chosen = null;
+    for (let c = 0; c < BLUE_PALETTE.length; c += 1) {
+      if (!used.has(c)) {
+        chosen = c;
+        break;
+      }
+    }
+    if (chosen === null) {
+      // Should be rare; fall back to any color.
+      chosen = 0;
+    }
+
+    colorIndex.set(pick, chosen);
+    (neighbors.get(pick) || new Set()).forEach((nb) => {
+      if (colorIndex.has(nb)) {
+        return;
+      }
+      satColors.get(nb)?.add(chosen);
+    });
+  }
+
+  for (const [iso, idx] of colorIndex.entries()) {
+    countryColorByIso.set(iso, BLUE_PALETTE[idx]);
+  }
+}
+
+function baseStyle(feature) {
+  const props = feature?.properties || {};
+  const iso = resolveIso(props);
+  return {
+    stroke: false,
+    fillColor: countryFillColor(iso),
+    fillOpacity: 0.76,
+  };
+}
+
+function hoverStyle(feature) {
+  const props = feature?.properties || {};
+  const iso = resolveIso(props);
+  return {
+    stroke: true,
+    color: "rgba(234, 247, 255, 0.95)",
+    weight: 0.55,
+    fillColor: countryFillColor(iso),
+    // Keep the base shape mostly transparent on hover so the pop layer
+    // can scale without creating a double-filled "ghost".
+    fillOpacity: 0.04,
+    lineJoin: "round",
+  };
+}
+
+function popStyle(feature) {
+  const props = feature?.properties || {};
+  const iso = resolveIso(props);
+  return {
+    interactive: false,
+    stroke: false,
+    fillColor: countryFillColor(iso),
+    fillOpacity: 0.92,
+  };
+}
+
+function explodeFeatureToPolygons(feature) {
+  if (!feature || feature.type !== "Feature") {
+    return [];
+  }
+  const geom = feature.geometry;
+  if (!geom || !geom.type) {
+    return [];
+  }
+
+  const base = {
+    type: "Feature",
+    properties: feature.properties || {},
+  };
+
+  if (geom.type === "Polygon") {
+    return [{ ...base, geometry: geom }];
+  }
+  if (geom.type === "MultiPolygon") {
+    const coords = geom.coordinates || [];
+    return coords.map((coordinates) => ({
+      ...base,
+      geometry: { type: "Polygon", coordinates },
+    }));
+  }
+
+  return [];
+}
+
+function explodeGeojsonToPolygons(input) {
+  if (!input) {
+    return null;
+  }
+
+  const features = [];
+
+  if (input.type === "FeatureCollection") {
+    for (const feature of input.features || []) {
+      features.push(...explodeFeatureToPolygons(feature));
+    }
+  } else if (input.type === "Feature") {
+    features.push(...explodeFeatureToPolygons(input));
+  } else {
+    return input;
+  }
+
+  if (features.length === 0) {
+    return input;
+  }
+  return { type: "FeatureCollection", features };
+}
+
+function getLayerElement(layer) {
+  return layer?.getElement ? layer.getElement() : layer?._path;
+}
+
+function triggerJelly(el, className) {
+  if (!el) {
+    return;
+  }
+  el.classList.remove("country-jelly-in", "country-jelly-out");
+  try {
+    // Force reflow so animation can retrigger.
+    void el.getBoundingClientRect();
+  } catch (error) {
+    // Ignore.
+  }
+  el.classList.add(className);
+}
+
+function clearHoverPopTimer() {
+  if (!hoverPopRemoveTimer) {
+    return;
+  }
+  clearTimeout(hoverPopRemoveTimer);
+  hoverPopRemoveTimer = null;
+}
+
+function clearHoverLeaveTimer() {
+  if (!hoverLeaveTimer) {
+    return;
+  }
+  clearTimeout(hoverLeaveTimer);
+  hoverLeaveTimer = null;
+}
+
+function removeHoverPopNow() {
+  clearHoverPopTimer();
+  if (hoverPopLayer) {
+    map.removeLayer(hoverPopLayer);
+  }
+  hoverPopLayer = null;
+  hoverPopIso = null;
+}
+
+function applyPopClasses(className) {
+  if (!hoverPopLayer) {
+    return;
+  }
+  hoverPopLayer.eachLayer((layer) => {
+    const el = getLayerElement(layer);
+    if (!el) {
+      return;
+    }
+    el.classList.add("country-shape", "country-pop");
+    triggerJelly(el, className);
+  });
+}
+
+function showHoverPop(feature, iso) {
+  clearHoverPopTimer();
+  if (hoverPopLayer && hoverPopIso === iso) {
+    // Already showing this country's pop layer.
+    applyPopClasses("country-jelly-in");
+    return;
+  }
+
+  removeHoverPopNow();
+  hoverPopIso = iso;
+  const exploded = explodeGeojsonToPolygons(feature);
+  hoverPopLayer = L.geoJSON(exploded, {
+    style: popStyle,
+    interactive: false,
+  }).addTo(map);
+
+  // Defer class injection to ensure SVG path exists.
+  requestAnimationFrame(() => {
+    applyPopClasses("country-jelly-in");
+    if (hoverPopLayer?.bringToFront) {
+      hoverPopLayer.bringToFront();
+    }
+  });
+}
+
+function hideHoverPop() {
+  if (!hoverPopLayer) {
+    return;
+  }
+  applyPopClasses("country-jelly-out");
+  clearHoverPopTimer();
+  hoverPopRemoveTimer = setTimeout(() => {
+    removeHoverPopNow();
+  }, 540);
+}
+
+function indexCountries() {
+  countryLayersByIso.clear();
+  countryFeaturesByIso.clear();
+  countryDisplayNameByIso.clear();
+
+  if (!geojsonLayer) {
+    return;
+  }
+
+  geojsonLayer.eachLayer((layer) => {
+    const feature = layer?.feature;
+    const props = feature?.properties || {};
+    const iso = resolveIso(props);
+    if (!iso || iso === "-99") {
+      return;
+    }
+
+    if (!countryLayersByIso.has(iso)) {
+      countryLayersByIso.set(iso, new Set());
+    }
+    countryLayersByIso.get(iso).add(layer);
+
+    if (!countryFeaturesByIso.has(iso)) {
+      countryFeaturesByIso.set(iso, []);
+    }
+    countryFeaturesByIso.get(iso).push(feature);
+
+    if (!countryDisplayNameByIso.has(iso)) {
+      countryDisplayNameByIso.set(iso, resolveName(props));
+    }
+  });
+}
+
+function setIsoStyle(iso, styleFn) {
+  const layers = countryLayersByIso.get(iso);
+  if (!layers) {
+    return;
+  }
+  layers.forEach((layer) => {
+    const feature = layer?.feature;
+    if (!feature) {
+      return;
+    }
+    layer.setStyle(styleFn(feature));
+  });
+}
+
+function featureCollectionForIso(iso) {
+  const features = countryFeaturesByIso.get(iso);
+  if (!features || features.length === 0) {
+    return null;
+  }
+  return {
+    type: "FeatureCollection",
+    features,
+  };
+}
+
+async function fetchCountryDataDedup(iso) {
+  if (!iso || iso === "-99") {
+    return null;
+  }
+  if (hoverFetchPromises.has(iso)) {
+    return hoverFetchPromises.get(iso);
+  }
+  const promise = fetchCountryData(iso).finally(() => {
+    hoverFetchPromises.delete(iso);
+  });
+  hoverFetchPromises.set(iso, promise);
+  return promise;
+}
+
+function scheduleHoverLeave(iso) {
+  clearHoverLeaveTimer();
+  hoverLeaveTimer = setTimeout(() => {
+    if (hoverIso !== iso) {
+      return;
+    }
+    hideHoverPop();
+    setIsoStyle(iso, baseStyle);
+    hoverIso = null;
+    hideTooltip();
+  }, 110);
+}
 
 const refreshButton = document.getElementById("refresh-data");
 const refreshStatus = document.getElementById("refresh-status");
@@ -436,15 +949,38 @@ function buildTooltipContent({ name, capital, data, loading }) {
 
 function onEachFeature(feature, layer) {
   const props = feature.properties || {};
-  const name = resolveName(props);
   const iso = resolveIso(props);
+  const name = countryDisplayNameByIso.get(iso) || resolveName(props);
   // 从已加载的首都数据中获取
   const capital = countryCapitals.get(iso);
+
+  layer.on("add", () => {
+    const el = getLayerElement(layer);
+    if (el) {
+      el.classList.add("country-shape");
+    }
+  });
 
   layer.on({
     mouseover: async (event) => {
       activeIso = iso;
-      layer.setStyle(highlightStyle);
+      clearHoverLeaveTimer();
+
+      if (hoverIso !== iso) {
+        if (hoverIso) {
+          setIsoStyle(hoverIso, baseStyle);
+        }
+        hoverIso = iso;
+        if (iso && iso !== "-99") {
+          setIsoStyle(iso, hoverStyle);
+        }
+      }
+
+      const collection = iso ? featureCollectionForIso(iso) : null;
+      if (iso && iso !== "-99") {
+        showHoverPop(collection || feature, iso);
+      }
+
       showTooltip(event, buildTooltipContent({ name, capital, loading: true }));
 
       if (!iso || iso === "-99") {
@@ -452,7 +988,7 @@ function onEachFeature(feature, layer) {
         return;
       }
 
-      const data = await fetchCountryData(iso);
+      const data = await fetchCountryDataDedup(iso);
       if (activeIso !== iso) {
         return;
       }
@@ -463,7 +999,10 @@ function onEachFeature(feature, layer) {
       moveTooltip(event);
     },
     mouseout: () => {
-      layer.setStyle(baseStyle);
+      if (iso && iso !== "-99") {
+        scheduleHoverLeave(iso);
+        return;
+      }
       hideTooltip();
     },
     click: async (event) => {
@@ -476,7 +1015,7 @@ function onEachFeature(feature, layer) {
         );
         return;
       }
-      const data = await fetchCountryData(iso);
+      const data = await fetchCountryDataDedup(iso);
       if (activeIso !== iso) {
         return;
       }
@@ -586,11 +1125,16 @@ async function initializeMap() {
     // 2. 再加载世界地图（此时 countryCapitals 已填充）
     const worldResponse = await fetch("/static/geojson/world_50m_custom.geojson");
     const geojson = await worldResponse.json();
+
+    // Build adjacent-country 4-color palette mapping.
+    buildFourColorMap(geojson);
     
     geojsonLayer = L.geoJSON(geojson, {
       style: baseStyle,
       onEachFeature,
     }).addTo(map);
+
+    indexCountries();
     
     // 3. 根据当前缩放级别显示首都
     updateCapitalVisibility();

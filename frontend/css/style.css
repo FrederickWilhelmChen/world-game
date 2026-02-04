@@ -28,6 +28,7 @@ body {
   display: grid;
   gap: 32px;
   padding: 32px 40px 48px;
+  justify-items: stretch;
 }
 
 .hero {
@@ -121,6 +122,10 @@ body {
   background: linear-gradient(130deg, var(--sea-1), var(--sea-2));
   padding: 12px;
   box-shadow: 0 30px 60px var(--shadow);
+  width: 100%;
+  max-width: 1048px;
+  margin: 0 auto;
+  justify-self: center;
 }
 
 .detail-panel {
@@ -208,6 +213,73 @@ body {
   min-height: 360px;
   border-radius: 16px;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Country hover jelly effect */
+.country-shape {
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform, filter;
+  transition: filter 0.18s ease;
+}
+
+.country-pop {
+  pointer-events: none;
+}
+
+.country-shape.country-jelly-in {
+  animation: countryJellyIn 520ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  filter: drop-shadow(0 10px 18px rgba(10, 28, 44, 0.25));
+}
+
+.country-shape.country-jelly-out {
+  animation: countryJellyOut 520ms cubic-bezier(0.2, 0.9, 0.2, 1);
+  filter: none;
+}
+
+@keyframes countryJellyIn {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.16);
+  }
+  60% {
+    transform: scale(0.985);
+  }
+  80% {
+    transform: scale(1.065);
+  }
+  100% {
+    transform: scale(1.045);
+  }
+}
+
+@keyframes countryJellyOut {
+  0% {
+    transform: scale(1.045);
+  }
+  35% {
+    transform: scale(0.97);
+  }
+  60% {
+    transform: scale(1.02);
+  }
+  80% {
+    transform: scale(0.99);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .country-shape.country-jelly-in,
+  .country-shape.country-jelly-out {
+    animation: none;
+  }
 }
 
 .tooltip {
