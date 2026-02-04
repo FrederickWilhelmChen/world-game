@@ -11,9 +11,9 @@
 
 ## 原油产量
 
-- 来源: Our World in Data (energy-data.csv, oil_production)
+- 来源: Trading Economics - Crude Oil Production
 - 抓取方式: `backend/crawler/eia_oil.py`
-- 单位: 桶/日（由 TWh 近似折算）
+- 单位: 桶/日（原始单位为 BBL/D/1K，已换算为 bbl/day）
 - 落地目录: `data/raw/oil/*.json`
 
 ## 粮食产量
@@ -39,7 +39,14 @@
 - 单位: 公斤/年（数据源为 metric tons，已转换为公斤）
 - 落地目录: `data/raw/minerals/*.json`
 
+## 黄金储备
+
+- 来源: Trading Economics - Gold Reserves (country list)
+- 抓取方式: `backend/crawler/te_gold_reserves.py`
+- 单位: 吨
+- 落地目录: `data/raw/gold_reserves/*.json`
+
 ## 数据刷新入口
 
-- 后端接口: `POST /api/data/refresh`，可选参数 `scope` (`gdp`/`oil`/`agriculture`/`minerals`/`all`)
+- 后端接口: `POST /api/data/refresh`，可选参数 `scope` (`gdp`/`oil`/`agriculture`/`minerals`/`gold_reserves`/`all`)
 - 前端按钮: `frontend/index.html` 的 “Refresh data” 按钮调用该接口

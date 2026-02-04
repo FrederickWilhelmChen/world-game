@@ -11,7 +11,8 @@ from ..utils.country_codes import to_iso3
 from ..utils.lag_checker import check_data_freshness
 from ..utils.storage import get_data_dir, write_json
 
-TE_CRUDE_OIL_URL = "https://zh.tradingeconomics.com/country-list/crude-oil-production"
+
+TE_GOLD_RESERVES_URL = "https://zh.tradingeconomics.com/country-list/gold-reserves"
 
 REQUEST_HEADERS = {
     "User-Agent": "world-game/0.1 (+https://example.com)",
@@ -37,7 +38,6 @@ def _slug_to_name(slug: str):
     if not slug:
         return None
     name = slug.replace("-", " ").strip()
-    # TradingEconomics uses slugs that don't always match common English names.
     overrides = {
         "cote d ivoire": "Ivory Coast",
         "ivory coast": "Ivory Coast",
@@ -49,45 +49,47 @@ def _slug_to_name(slug: str):
         "united kingdom": "United Kingdom",
         "united arab emirates": "United Arab Emirates",
         "turkey": "Turkey",
-        # Avoid fuzzy-mapping mistakes
         "niger": "Niger",
+        "taiwan": "Taiwan",
     }
     lowered = name.lower()
     return overrides.get(lowered, name)
 
 
-def crawl_oil():
-    response = requests.get(TE_CRUDE_OIL_URL, headers=REQUEST_HEADERS, timeout=60)
+def crawl_gold_reserves():
+    response = requests.get(TE_GOLD_RESERVES_URL, headers=REQUEST_HEADERS, timeout=60)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "lxml")
     table = soup.select_one("table.table-heatmap")
     if not table:
-        raise RuntimeError("TradingEconomics crude oil table not found")
+        raise RuntimeError("TradingEconomics gold reserves table not found")
 
     values = {}
     latest_year = None
     latest_month = None
+    unit = "吨"
 
     for row in table.select("tr"):
         tds = row.find_all("td")
-        if not tds or len(tds) < 3:
+        if not tds or len(tds) < 4:
             continue
 
         link = tds[0].find("a")
         href = (link.get("href") if link else "") or ""
-        # e.g. /united-states/crude-oil-production
+        # e.g. /united-states/gold-reserves
         slug = href.strip("/").split("/")[0] if href else ""
         name_for_iso = _slug_to_name(slug)
         iso = to_iso3(name_for_iso)
         if not iso:
             continue
 
-        recent = _parse_number(tds[1].get_text())
+        recent = _parse_number(tds[1].get_text(" ", strip=True))
         if recent is None:
             continue
+        previous = _parse_number(tds[2].get_text(" ", strip=True))
 
-        ref_text = " ".join(td.get_text(" ", strip=True) for td in tds)
+        ref_text = tds[3].get_text(" ", strip=True)
         match = re.search(r"(\d{4})-(\d{2})", ref_text)
         year = None
         month = None
@@ -98,8 +100,11 @@ def crawl_oil():
             if latest_month is None or (year, month) > latest_month:
                 latest_month = (year, month)
 
-        # TradingEconomics unit: BBL/D/1K (thousand barrels per day).
-        barrels_per_day = float(recent) * 1000.0
+        if len(tds) >= 5:
+            row_unit = tds[4].get_text(" ", strip=True) or ""
+            if row_unit:
+                unit = row_unit
+
         if year and month:
             last_day = calendar.monthrange(year, month)[1]
             data_date = datetime(year, month, last_day)
@@ -107,25 +112,25 @@ def crawl_oil():
             data_date = datetime.utcnow()
 
         values[iso.upper()] = {
-            "value": barrels_per_day,
-            "unit": "桶/日",
+            "value": float(recent),
+            "previous": float(previous) if previous is not None else None,
+            "unit": unit,
             "year": year,
             "month": month,
-            "lag_note": check_data_freshness(data_date, max_lag_days=60),
+            "lag_note": check_data_freshness(data_date, max_lag_days=90),
         }
 
     payload = {
         "last_updated": datetime.utcnow().isoformat(timespec="seconds") + "Z",
-        "unit": "桶/日",
-        "source": "Trading Economics (Crude Oil Production, BBL/D/1K -> bbl/day)",
+        "unit": unit,
+        "source": "Trading Economics (Gold Reserves)",
         "data": values,
         "latest_year": latest_year,
         "latest_month": f"{latest_month[0]}-{latest_month[1]:02d}" if latest_month else None,
-        "raw_unit": "BBL/D/1K",
-        "url": TE_CRUDE_OIL_URL,
+        "url": TE_GOLD_RESERVES_URL,
     }
 
     file_name = datetime.utcnow().strftime("%Y-%m") + ".json"
-    output_path = get_data_dir("raw", "oil", file_name)
+    output_path = get_data_dir("raw", "gold_reserves", file_name)
     write_json(output_path, payload)
     return payload

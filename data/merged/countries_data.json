@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-02T02:50:50Z",
+    "generated_at": "2026-02-04T11:53:25Z",
     "version": "0.1",
-    "last_crawl": "2026-02-02T02:20:16+00:00Z"
+    "last_crawl": "2026-02-04T11:53:16+00:00Z"
   },
   "countries": {
     "AFG": {
@@ -11,13 +11,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 5260000.0,
@@ -39,11 +32,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 24815.471394037068,
+        "value": 12000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 642700.5900000001,
@@ -55,6 +48,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 3.42,
+        "previous": 3.42,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "DZA": {
@@ -65,11 +67,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1110834.8106365835,
+        "value": 972000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 2512307.29,
@@ -81,6 +83,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 174.0,
+        "previous": 174.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ASM": {
@@ -89,13 +100,6 @@
         "unit": "USD",
         "year": 2022,
         "lag_note": "lagged; release: 2022-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "AND": {
@@ -111,13 +115,6 @@
         "value": 100998916781.079,
         "unit": "USD",
         "year": 2024,
-        "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 1075556.8090249798,
-        "unit": "桶/日",
-        "year": 2024,
-        "month": null,
         "lag_note": "lagged; release: 2024-12"
       },
       "grain_production": {
@@ -139,13 +136,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 46.25,
         "unit": "吨/年",
@@ -164,11 +154,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1099055.6003223206,
+        "value": 834000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 55128519.0,
@@ -180,6 +170,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 61.74,
+        "previous": 61.74,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ARM": {
@@ -188,13 +187,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 184345.4,
@@ -205,6 +197,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.0,
+        "previous": 0.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ABW": {
@@ -214,12 +215,14 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+      "gold_reserves": {
+        "value": 3.11,
+        "previous": 3.11,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "AUS": {
@@ -230,11 +233,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 279493.9564867043,
+        "value": 184000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 42082625.0,
@@ -263,6 +266,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 79.87,
+        "previous": 79.87,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "AUT": {
@@ -271,13 +283,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 15792.103142626915,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 3849880.0,
@@ -288,6 +293,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 280.0,
+        "previous": 280.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "AZE": {
@@ -298,11 +312,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 546675.2618855762,
+        "value": 556000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2093392.9000000001,
@@ -314,6 +328,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 200.0,
+        "previous": 185.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BHS": {
@@ -322,13 +345,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 616.45,
@@ -348,11 +364,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 58000.0,
+        "value": 180000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "nonferrous_metals": {
         "unit": "吨/年",
@@ -361,6 +377,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 4.67,
+        "previous": 4.67,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BGD": {
@@ -369,13 +394,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 4148.267526188558,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 64313158.0,
@@ -387,6 +405,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 14.28,
+        "previous": 14.28,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BRB": {
@@ -395,13 +422,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 1015.3102336825141,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 41.66,
@@ -421,11 +441,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 33234.488315874296,
+        "value": 25000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 3400000.0,
@@ -436,6 +456,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 53.86,
+        "previous": 53.86,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BEL": {
@@ -444,13 +473,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2308660.0,
@@ -462,6 +484,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 227.0,
+        "previous": 227.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BLZ": {
@@ -470,13 +501,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 1982.2723609991942,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 130112.0,
@@ -496,13 +520,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 2551880.2,
         "unit": "吨/年",
@@ -520,13 +537,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "BTN": {
@@ -535,13 +545,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 66759.24,
@@ -563,11 +566,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 65645.4472199839,
+        "value": 19000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2228808.96,
@@ -579,6 +582,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 22.5,
+        "previous": 22.53,
+        "unit": "吨",
+        "year": 2025,
+        "month": 3,
+        "lag_note": "lagged; release: 2025-03",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BIH": {
@@ -587,13 +599,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 926301.0,
@@ -604,6 +609,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 3.48,
+        "previous": 3.48,
+        "unit": "吨",
+        "year": 2025,
+        "month": 3,
+        "lag_note": "lagged; release: 2025-03",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BWA": {
@@ -612,13 +626,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 33550.39,
@@ -639,11 +646,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 3412651.0878323936,
+        "value": 3912000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 149966101.0,
@@ -671,6 +678,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 172.0,
+        "previous": 145.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BRN": {
@@ -681,11 +697,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 90883.15874294924,
+        "value": 95000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 3700.0,
@@ -704,13 +720,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 1016.9218372280419,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 9367700.0,
         "unit": "吨/年",
@@ -721,6 +730,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 42.93,
+        "previous": 42.93,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "BFA": {
@@ -729,13 +747,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2499613.5,
@@ -762,13 +773,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1005953.43,
         "unit": "吨/年",
@@ -788,13 +792,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 464.0,
         "unit": "吨/年",
@@ -812,13 +809,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 14380000.0,
         "unit": "吨/年",
@@ -828,6 +818,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 54.43,
+        "previous": 54.43,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "CMR": {
@@ -838,11 +837,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 94680.09669621273,
+        "value": 59000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2559032.67,
@@ -864,11 +863,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 5434444.802578566,
+        "value": 5008000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 47030046.0,
@@ -896,6 +895,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 0.0,
+        "previous": 0.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "CYM": {
@@ -904,13 +912,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "CAF": {
@@ -919,13 +920,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 274141.0,
@@ -946,11 +940,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 126343.27155519743,
+        "value": 126000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 579592.0,
@@ -979,13 +973,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 5142.626913779211,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1942132.3,
         "unit": "吨/年",
@@ -1004,6 +991,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 0.25,
+        "previous": 0.25,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "CHN": {
@@ -1014,11 +1010,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 3990204.6736502824,
+        "value": 4320000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 632035600.0,
@@ -1047,6 +1043,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 2306.0,
+        "previous": 2304.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "COL": {
@@ -1057,11 +1062,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 764833.1990330379,
+        "value": 752000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 4964992.0,
@@ -1080,6 +1085,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 4.68,
+        "previous": 4.68,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "COM": {
@@ -1088,13 +1102,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 19705.44,
@@ -1113,13 +1120,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 20343.27155519742,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4156944.0,
@@ -1141,11 +1141,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 256720.38678485094,
+        "value": 16000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 14000.0,
@@ -1164,13 +1164,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 83440.0,
@@ -1191,11 +1184,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 50014.50443190975,
+        "value": 62000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 3234500.0,
@@ -1214,13 +1207,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 14436.744560838035,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2825500.0,
@@ -1242,11 +1228,11 @@
         "lag_note": "lagged; release: 2020-12"
       },
       "oil_production": {
-        "value": 55124.89927477841,
+        "value": 25000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 290000.0,
@@ -1274,13 +1260,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 27850.0,
         "unit": "吨/年",
@@ -1290,6 +1269,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 13.9,
+        "previous": 13.9,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "CZE": {
@@ -1298,13 +1286,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 2507.655116841257,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 5769900.0,
@@ -1316,6 +1297,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 71.61,
+        "previous": 66.84,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "DNK": {
@@ -1326,11 +1316,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 55397.260273972606,
+        "value": 69000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 3597080.0,
@@ -1342,6 +1332,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 66.55,
+        "previous": 66.55,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "DJI": {
@@ -1350,13 +1349,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 17.33,
@@ -1375,13 +1367,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 193.13,
         "unit": "吨/年",
@@ -1399,13 +1384,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1028640.05,
         "unit": "吨/年",
@@ -1415,6 +1393,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.57,
+        "previous": 0.57,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ECU": {
@@ -1425,11 +1412,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 478767.12328767125,
+        "value": 470000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2730358.12,
@@ -1441,6 +1428,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 26.28,
+        "previous": 26.28,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "EGY": {
@@ -1451,11 +1447,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 583647.0588235294,
+        "value": 519000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 22430000.0,
@@ -1467,6 +1463,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 129.0,
+        "previous": 129.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SLV": {
@@ -1475,13 +1480,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 781000.0,
@@ -1492,6 +1490,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 1.81,
+        "previous": 1.81,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GNQ": {
@@ -1502,11 +1509,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 81287.67123287672,
+        "value": 46000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       }
     },
     "EST": {
@@ -1515,13 +1522,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 694120.0,
@@ -1533,6 +1533,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.25,
+        "previous": 0.25,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SWZ": {
@@ -1541,13 +1550,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 86907.77,
@@ -1568,13 +1570,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 16002000.0,
         "unit": "吨/年",
@@ -1593,13 +1588,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "FJI": {
@@ -1608,13 +1596,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 9171.0,
@@ -1625,6 +1606,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.03,
+        "previous": 0.03,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "FIN": {
@@ -1633,13 +1623,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 749030.0,
@@ -1651,6 +1634,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 43.76,
+        "previous": 43.76,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "FRA": {
@@ -1659,13 +1651,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 16975.02014504432,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 48898440.0,
@@ -1677,6 +1662,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 2437.0,
+        "previous": 2437.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PYF": {
@@ -1685,13 +1679,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "GAB": {
@@ -1702,11 +1689,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 210207.8968573731,
+        "value": 227000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 48106.979999999996,
@@ -1726,13 +1713,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 81100.0,
         "unit": "吨/年",
@@ -1750,13 +1730,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 407.7356970185334,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 337900.0,
@@ -1777,11 +1750,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 47766.31748589847,
+        "value": 30000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 26034800.0,
@@ -1801,6 +1774,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 3350.0,
+        "previous": 3350.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GHA": {
@@ -1811,11 +1793,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 101021.75664786463,
+        "value": 182000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 5082000.0,
@@ -1833,6 +1815,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 18.6,
+        "previous": 37.06,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GRC": {
@@ -1841,13 +1832,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 3252.2159548751,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2916310.0,
@@ -1859,6 +1843,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 115.0,
+        "previous": 115.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GRL": {
@@ -1867,13 +1860,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "GRD": {
@@ -1882,13 +1868,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 389.98,
@@ -1906,13 +1885,6 @@
         "unit": "USD",
         "year": 2022,
         "lag_note": "lagged; release: 2022-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "GTM": {
@@ -1921,13 +1893,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 9236.099919419823,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2126854.0,
@@ -1939,6 +1904,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 13.02,
+        "previous": 13.02,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GIN": {
@@ -1947,13 +1921,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4516800.0,
@@ -1973,13 +1940,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 247400.0,
         "unit": "吨/年",
@@ -1996,13 +1956,6 @@
         "value": 24662709832.1343,
         "unit": "USD",
         "year": 2024,
-        "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 576439.9677679291,
-        "unit": "桶/日",
-        "year": 2024,
-        "month": null,
         "lag_note": "lagged; release: 2024-12"
       },
       "grain_production": {
@@ -2023,13 +1976,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 316000.0,
         "unit": "吨/年",
@@ -2039,6 +1985,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 1.81,
+        "previous": 1.81,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "HND": {
@@ -2047,13 +2002,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 758845.26,
@@ -2065,6 +2013,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.7,
+        "previous": 0.7,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "HKG": {
@@ -2074,13 +2031,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 0.06,
         "unit": "吨/年",
@@ -2089,6 +2039,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 2.08,
+        "previous": 2.08,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "HUN": {
@@ -2099,11 +2058,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 20269.13779210314,
+        "value": 21000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 12192730.0,
@@ -2115,6 +2074,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 110.0,
+        "previous": 110.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ISL": {
@@ -2124,13 +2092,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "nonferrous_metals": {
         "unit": "吨/年",
         "by_category": {
@@ -2138,6 +2099,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 1.98,
+        "previous": 1.98,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "IND": {
@@ -2148,11 +2118,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 616381.9500402901,
+        "value": 579000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 355365926.0,
@@ -2173,6 +2143,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 880.0,
+        "previous": 880.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "IDN": {
@@ -2183,11 +2162,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 560780.0161160355,
+        "value": 564000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 73966642.0,
@@ -2214,6 +2193,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 85.53,
+        "previous": 85.53,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "IRN": {
@@ -2224,11 +2212,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 4394306.20467365,
+        "value": 3187000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 17951432.9,
@@ -2250,11 +2238,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 4041416.5995165193,
+        "value": 4081000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 4798579.0,
@@ -2266,6 +2254,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 171.0,
+        "previous": 165.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "IRL": {
@@ -2274,13 +2271,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 483910.0,
@@ -2292,6 +2282,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 12.04,
+        "previous": 12.04,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "IMN": {
@@ -2310,11 +2309,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 399.67767929089445,
+        "value": 15000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 187410.0,
@@ -2335,11 +2334,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 83505.23771152296,
+        "value": 84000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 13621810.0,
@@ -2351,6 +2350,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 2452.0,
+        "previous": 2452.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "JAM": {
@@ -2359,13 +2367,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2291.0,
@@ -2385,13 +2386,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 9988.718775181305,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 11230167.49,
         "unit": "吨/年",
@@ -2410,6 +2404,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 846.0,
+        "previous": 846.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "JOR": {
@@ -2418,13 +2421,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 22.562449637389204,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 26698.0,
@@ -2435,6 +2431,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 73.16,
+        "previous": 72.83,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "KAZ": {
@@ -2445,11 +2450,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1641103.9484286867,
+        "value": 2076000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 13785179.0,
@@ -2476,6 +2481,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 341.0,
+        "previous": 324.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "KEN": {
@@ -2484,13 +2498,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4823762.0,
@@ -2502,6 +2509,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.02,
+        "previous": 0.02,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "KIR": {
@@ -2510,13 +2526,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "KOR": {
@@ -2525,13 +2534,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 5040648.0,
@@ -2551,6 +2553,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 104.0,
+        "previous": 104.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "XKX": {
@@ -2569,11 +2580,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 2450788.074133763,
+        "value": 2580000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 26245.29,
@@ -2584,6 +2595,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 78.98,
+        "previous": 78.97,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "KGZ": {
@@ -2592,13 +2612,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 1016.9218372280419,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 1287116.0,
@@ -2610,6 +2623,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 45.87,
+        "previous": 40.7,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LAO": {
@@ -2618,13 +2640,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4285000.0,
@@ -2644,13 +2659,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 2136800.0,
         "unit": "吨/年",
@@ -2661,6 +2669,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 6.66,
+        "previous": 6.66,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LBN": {
@@ -2669,13 +2686,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 103000.0,
@@ -2686,6 +2696,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 287.0,
+        "previous": 287.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 3,
+        "lag_note": "lagged; release: 2025-03",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LSO": {
@@ -2694,13 +2713,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 133360.0,
@@ -2720,13 +2732,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 256200.0,
         "unit": "吨/年",
@@ -2745,11 +2750,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1044417.4053182917,
+        "value": 1365000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 11,
+        "lag_note": "lagged; release: 2025-11"
       },
       "grain_production": {
         "total": 133965.31,
@@ -2760,6 +2765,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 147.0,
+        "previous": 147.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LIE": {
@@ -2777,13 +2791,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 2035.4552780016118,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 4546720.0,
         "unit": "吨/年",
@@ -2794,6 +2801,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 5.82,
+        "previous": 5.82,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LUX": {
@@ -2802,13 +2818,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 73310.0,
@@ -2820,6 +2829,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 2.24,
+        "previous": 2.24,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MAC": {
@@ -2828,13 +2846,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "MDG": {
@@ -2843,13 +2854,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 5388543.51,
@@ -2869,13 +2873,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 3635300.0,
@@ -2897,11 +2894,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 451028.2030620467,
+        "value": 541000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2167306.44,
@@ -2920,6 +2917,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 38.88,
+        "previous": 38.88,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MDV": {
@@ -2928,13 +2934,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 147.16,
@@ -2952,13 +2951,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 6449332.0,
@@ -2986,13 +2978,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 0.0,
         "unit": "吨/年",
@@ -3003,6 +2988,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.34,
+        "previous": 0.31,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MHL": {
@@ -3019,13 +3013,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 4899.274778404512,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 475200.0,
@@ -3046,13 +3033,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1502.0,
         "unit": "吨/年",
@@ -3062,6 +3042,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 12.42,
+        "previous": 12.42,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MEX": {
@@ -3072,11 +3061,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1806265.9145850122,
+        "value": 1742000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 31278044.68,
@@ -3103,6 +3092,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 120.0,
+        "previous": 120.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "FSM": {
@@ -3129,13 +3127,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2906500.8,
@@ -3164,11 +3155,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 24359.3875906527,
+        "value": 14000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 443415.6,
@@ -3178,6 +3169,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 7.8,
+        "previous": 7.64,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MNE": {
@@ -3186,13 +3186,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4904.14,
@@ -3212,13 +3205,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 159.54875100725224,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 4274787.4,
         "unit": "吨/年",
@@ -3229,6 +3215,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 22.12,
+        "previous": 22.12,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MOZ": {
@@ -3237,13 +3232,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2302669.0,
@@ -3255,6 +3243,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 3.94,
+        "previous": 3.94,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MMR": {
@@ -3263,13 +3260,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 15774.375503626108,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 27930000.0,
@@ -3290,13 +3280,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 130305.0,
         "unit": "吨/年",
@@ -3314,13 +3297,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "NPL": {
@@ -3329,13 +3305,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 10799152.2,
@@ -3347,6 +3316,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 7.99,
+        "previous": 7.99,
+        "unit": "吨",
+        "year": 2024,
+        "month": 6,
+        "lag_note": "lagged; release: 2024-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "NLD": {
@@ -3357,11 +3335,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 23784.045124899276,
+        "value": 20000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 1248750.0,
@@ -3373,6 +3351,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 612.0,
+        "previous": 612.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "NCL": {
@@ -3381,13 +3368,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2914.66,
@@ -3415,13 +3395,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 36923.44883158743,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 555969.0,
         "unit": "吨/年",
@@ -3439,13 +3412,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 854824.72,
@@ -3466,11 +3432,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 13337.630942788075,
+        "value": 108000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 162487.19,
@@ -3492,11 +3458,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1478705.8823529414,
+        "value": 1422000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 20007957.03,
@@ -3517,13 +3483,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 368338.0,
         "unit": "吨/年",
@@ -3534,6 +3493,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 6.89,
+        "previous": 6.89,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "MNP": {
@@ -3542,13 +3510,6 @@
         "unit": "USD",
         "year": 2022,
         "lag_note": "lagged; release: 2022-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "NOR": {
@@ -3559,11 +3520,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1609635.777598711,
+        "value": 1922000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 172000.0,
@@ -3591,11 +3552,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 898443.1909750202,
+        "value": 1011000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 10330.0,
@@ -3606,6 +3567,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 6.73,
+        "previous": 6.73,
+        "unit": "吨",
+        "year": 2025,
+        "month": 3,
+        "lag_note": "lagged; release: 2025-03",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PAK": {
@@ -3616,11 +3586,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 88493.1506849315,
+        "value": 66000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 52811524.0,
@@ -3632,6 +3602,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 64.77,
+        "previous": 64.76,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PLW": {
@@ -3648,13 +3627,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 596270.0,
@@ -3675,11 +3647,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 54319.09750201451,
+        "value": 31000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 13797.37,
@@ -3690,6 +3662,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 1.96,
+        "previous": 1.96,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PRY": {
@@ -3698,13 +3679,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 6758310.0,
@@ -3716,6 +3690,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 8.19,
+        "previous": 8.19,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PER": {
@@ -3726,11 +3709,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 97771.15229653506,
+        "value": 42000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 5201577.86,
@@ -3757,6 +3740,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 34.67,
+        "previous": 34.67,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PHL": {
@@ -3765,13 +3757,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 20422.240128928286,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 28464566.0,
@@ -3790,6 +3775,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 133.0,
+        "previous": 132.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "POL": {
@@ -3800,11 +3794,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 20243.3521353747,
+        "value": 11000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 21914280.0,
@@ -3824,6 +3818,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 550.0,
+        "previous": 515.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PRT": {
@@ -3832,13 +3835,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 980710.0,
@@ -3850,6 +3846,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 383.0,
+        "previous": 383.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "PRI": {
@@ -3858,13 +3863,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 3952.42,
@@ -3885,11 +3883,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 1414746.1724415794,
+        "value": 1317000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 2016.4,
@@ -3900,6 +3898,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 115.0,
+        "previous": 116.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ROU": {
@@ -3910,11 +3917,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 53735.69701853344,
+        "value": 51000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 18380140.0,
@@ -3926,6 +3933,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 104.0,
+        "previous": 104.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "RUS": {
@@ -3936,11 +3952,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 9865970.991136182,
+        "value": 9946000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 109165700.0,
@@ -3969,6 +3985,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 2327.0,
+        "previous": 2330.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "RWA": {
@@ -3977,13 +4002,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 658775.88,
@@ -4003,13 +4021,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "SMR": {
@@ -4026,13 +4037,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 786.98,
@@ -4052,11 +4056,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 9562066.075745367,
+        "value": 10084000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 983835.29,
@@ -4068,6 +4072,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 323.0,
+        "previous": 323.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SEN": {
@@ -4076,13 +4089,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2448700.0,
@@ -4103,11 +4109,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 20902.497985495567,
+        "value": 11000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 10079684.0,
@@ -4118,6 +4124,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 51.69,
+        "previous": 50.31,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SYC": {
@@ -4126,13 +4141,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "SLE": {
@@ -4141,13 +4149,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 1424500.0,
@@ -4167,12 +4168,14 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+      "gold_reserves": {
+        "value": 194.0,
+        "previous": 205.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SXM": {
@@ -4190,13 +4193,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 214.34327155519745,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 3596260.0,
         "unit": "吨/年",
@@ -4207,6 +4203,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 31.69,
+        "previous": 31.69,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SVN": {
@@ -4215,13 +4220,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 4.8348106365834,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 534450.0,
@@ -4233,6 +4231,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 4.01,
+        "previous": 3.73,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SLB": {
@@ -4241,13 +4248,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2752.61,
@@ -4265,13 +4265,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 78060.22,
@@ -4292,13 +4285,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 4370.668815471394,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 18483082.07,
         "unit": "吨/年",
@@ -4316,6 +4302,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 126.0,
+        "previous": 125.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ESP": {
@@ -4324,13 +4319,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 2667.203867848509,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 7218690.0,
@@ -4342,6 +4330,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 282.0,
+        "previous": 282.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "LKA": {
@@ -4350,13 +4347,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 4734680.0,
@@ -4367,6 +4357,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.47,
+        "previous": 0.47,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "KNA": {
@@ -4375,13 +4374,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "LCA": {
@@ -4390,13 +4382,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 0.0,
@@ -4423,13 +4408,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 633.0,
         "unit": "吨/年",
@@ -4449,11 +4427,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 34833.199033037876,
+        "value": 30000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 423153.24,
@@ -4475,11 +4453,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 18591.458501208705,
+        "value": 12000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 203185.31,
@@ -4490,6 +4468,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 1.21,
+        "previous": 1.21,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SWE": {
@@ -4498,13 +4485,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2783900.0,
@@ -4516,6 +4496,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 126.0,
+        "previous": 126.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "CHE": {
@@ -4524,13 +4513,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 582763.0,
@@ -4541,6 +4523,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 1040.0,
+        "previous": 1040.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "SYR": {
@@ -4551,11 +4542,11 @@
         "lag_note": "lagged; release: 2022-12"
       },
       "oil_production": {
-        "value": 31068.49315068493,
+        "value": 85000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 3643014.0,
@@ -4576,13 +4567,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 183.7228041901692,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1195484.66,
         "unit": "吨/年",
@@ -4601,13 +4585,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 11685471.0,
@@ -4636,11 +4613,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 232240.12892828364,
+        "value": 158000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 38026443.48,
@@ -4652,6 +4629,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 235.0,
+        "previous": 235.0,
+        "unit": "吨",
+        "year": 2026,
+        "month": 3,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "TLS": {
@@ -4660,13 +4646,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 45406.92989524577,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 168000.0,
@@ -4686,13 +4665,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 1196100.0,
         "unit": "吨/年",
@@ -4710,13 +4682,6 @@
         "unit": "USD",
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "TTO": {
@@ -4727,11 +4692,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 63434.32715551975,
+        "value": 52000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 5326.0,
@@ -4742,6 +4707,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 2.0,
+        "previous": 1.96,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "TUN": {
@@ -4752,11 +4726,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 27851.73247381144,
+        "value": 24000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 400000.0,
@@ -4766,6 +4740,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 6.84,
+        "previous": 6.84,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "TUR": {
@@ -4776,11 +4759,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 51178.08219178082,
+        "value": 129000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 31900000.0,
@@ -4792,6 +4775,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 614.0,
+        "previous": 641.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "TKM": {
@@ -4802,11 +4794,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 168868.65431103949,
+        "value": 191000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 1191010.0,
@@ -4826,13 +4818,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "TUV": {
@@ -4849,13 +4834,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 3085000.0,
@@ -4876,13 +4854,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 45674.45608380339,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 52666690.0,
         "unit": "吨/年",
@@ -4893,6 +4864,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 27.37,
+        "previous": 27.37,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ARE": {
@@ -4903,11 +4883,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 3368987.9129734086,
+        "value": 3373000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 22043.6,
@@ -4926,6 +4906,15 @@
         },
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
+      },
+      "gold_reserves": {
+        "value": 74.26,
+        "previous": 74.4,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "GBR": {
@@ -4936,11 +4925,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 569759.8710717164,
+        "value": 477000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 13980785.0,
@@ -4951,6 +4940,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 310.0,
+        "previous": 310.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "USA": {
@@ -4961,11 +4959,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 16079587.429492345,
+        "value": 13870000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 10,
+        "lag_note": "lagged; release: 2025-10"
       },
       "grain_production": {
         "total": 448909900.0,
@@ -4994,6 +4992,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 8133.0,
+        "previous": 8133.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "URY": {
@@ -5002,13 +5009,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 2982400.0,
@@ -5020,6 +5020,15 @@
         },
         "year": 2023,
         "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 0.1,
+        "previous": 0.1,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "UZB": {
@@ -5030,11 +5039,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 36130.539887187755,
+        "value": 29000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 7608590.7,
@@ -5053,6 +5062,15 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12",
         "source": "USGS MCS 2025 - Mineral Commodity Summaries"
+      },
+      "gold_reserves": {
+        "value": 390.0,
+        "previous": 361.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 12,
+        "lag_note": null,
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "VUT": {
@@ -5061,13 +5079,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 983.1,
@@ -5087,11 +5098,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 928304.5930701048,
+        "value": 1120000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 12,
+        "lag_note": null
       },
       "grain_production": {
         "total": 2072949.1700000002,
@@ -5113,11 +5124,11 @@
         "lag_note": "lagged; release: 2024-12"
       },
       "oil_production": {
-        "value": 159389.202256245,
+        "value": 172000.0,
         "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
       },
       "grain_production": {
         "total": 47934842.5,
@@ -5136,13 +5147,6 @@
         "unit": "USD",
         "year": 2022,
         "lag_note": "lagged; release: 2022-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       }
     },
     "PSE": {
@@ -5151,13 +5155,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 35699.98,
@@ -5175,13 +5172,6 @@
         "unit": "USD",
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
-      },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
       },
       "grain_production": {
         "total": 3601857.4499999997,
@@ -5210,13 +5200,6 @@
         "year": 2024,
         "lag_note": "lagged; release: 2024-12"
       },
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 934772.5,
         "unit": "吨/年",
@@ -5229,32 +5212,55 @@
         "lag_note": "lagged; release: 2023-12"
       }
     },
-    "ANT": {
+    "YEM": {
       "oil_production": {
-        "value": 0.0,
+        "value": 15000.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
+      },
+      "grain_production": {
+        "total": 160000.0,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 100000.0,
+          "corn": 60000.0
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
       }
     },
-    "COK": {
+    "TWN": {
       "oil_production": {
-        "value": 0.0,
+        "value": 200.0,
         "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
+        "year": 2025,
+        "month": 9,
+        "lag_note": "lagged; release: 2025-09"
+      },
+      "grain_production": {
+        "total": 1710902.3900000001,
+        "unit": "吨/年",
+        "by_category": {
+          "wheat": 6000.0,
+          "rice": 1461000.0,
+          "corn": 243902.39
+        },
+        "year": 2023,
+        "lag_note": "lagged; release: 2023-12"
+      },
+      "gold_reserves": {
+        "value": 424.0,
+        "previous": 424.0,
+        "unit": "吨",
+        "year": 2025,
+        "month": 6,
+        "lag_note": "lagged; release: 2025-06",
+        "source": "Trading Economics (Gold Reserves)"
       }
     },
     "ERI": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 45000.0,
         "unit": "吨/年",
@@ -5266,105 +5272,7 @@
         "lag_note": "lagged; release: 2023-12"
       }
     },
-    "ESH": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "FLK": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "GIB": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "GLP": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
-      "grain_production": {
-        "total": 100.0,
-        "unit": "吨/年",
-        "by_category": {
-          "corn": 100.0
-        },
-        "year": 1977,
-        "lag_note": "lagged; release: 1977-12"
-      }
-    },
-    "GUF": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
-      "grain_production": {
-        "total": 15163.0,
-        "unit": "吨/年",
-        "by_category": {
-          "rice": 15073.0,
-          "corn": 90.0
-        },
-        "year": 2006,
-        "lag_note": "lagged; release: 2006-12"
-      }
-    },
-    "MSR": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "MTQ": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "NIU": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
     "PRK": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 4143155.23,
         "unit": "吨/年",
@@ -5377,14 +5285,19 @@
         "lag_note": "lagged; release: 2023-12"
       }
     },
+    "GUF": {
+      "grain_production": {
+        "total": 15163.0,
+        "unit": "吨/年",
+        "by_category": {
+          "rice": 15073.0,
+          "corn": 90.0
+        },
+        "year": 2006,
+        "lag_note": "lagged; release: 2006-12"
+      }
+    },
     "REU": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
       "grain_production": {
         "total": 15185.0,
         "unit": "吨/年",
@@ -5396,32 +5309,7 @@
         "lag_note": "lagged; release: 2006-12"
       }
     },
-    "SHN": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "SPM": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
     "SSD": {
-      "oil_production": {
-        "value": 80077.35697018534,
-        "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
-      },
       "grain_production": {
         "total": 174000.0,
         "unit": "吨/年",
@@ -5433,52 +5321,15 @@
         "lag_note": "lagged; release: 2023-12"
       }
     },
-    "TWN": {
-      "oil_production": {
-        "value": 233.68251410153104,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      },
+    "GLP": {
       "grain_production": {
-        "total": 1710902.3900000001,
+        "total": 100.0,
         "unit": "吨/年",
         "by_category": {
-          "wheat": 6000.0,
-          "rice": 1461000.0,
-          "corn": 243902.39
+          "corn": 100.0
         },
-        "year": 2023,
-        "lag_note": "lagged; release: 2023-12"
-      }
-    },
-    "VGB": {
-      "oil_production": {
-        "value": 0.0,
-        "unit": "桶/日",
-        "year": 2016,
-        "month": null,
-        "lag_note": "lagged; release: 2016-12"
-      }
-    },
-    "YEM": {
-      "oil_production": {
-        "value": 33389.202256244964,
-        "unit": "桶/日",
-        "year": 2024,
-        "month": null,
-        "lag_note": "lagged; release: 2024-12"
-      },
-      "grain_production": {
-        "total": 160000.0,
-        "unit": "吨/年",
-        "by_category": {
-          "wheat": 100000.0,
-          "corn": 60000.0
-        },
-        "year": 2023,
-        "lag_note": "lagged; release: 2023-12"
+        "year": 1977,
+        "lag_note": "lagged; release: 1977-12"
       }
     }
   }

@@ -1,1520 +1,487 @@
 {
-  "last_updated": "2026-02-02T02:20:11Z",
+  "last_updated": "2026-02-04T08:45:48Z",
   "unit": "桶/日",
-  "source": "OWID energy-data (oil_production, TWh -> bbl/day approx)",
+  "source": "Trading Economics (Crude Oil Production, BBL/D/1K -> bbl/day)",
   "data": {
-    "ABW": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "AFG": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "AGO": {
-      "value": 1075556.8090249798,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ALB": {
-      "value": 24815.471394037068,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ANT": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ARE": {
-      "value": 3368987.9129734086,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ARG": {
-      "value": 1099055.6003223206,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ARM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ASM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ATG": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "AUS": {
-      "value": 279493.9564867043,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "AUT": {
-      "value": 15792.103142626915,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "AZE": {
-      "value": 546675.2618855762,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "BDI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BEL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BEN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BFA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BGD": {
-      "value": 4148.267526188558,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BGR": {
-      "value": 1016.9218372280419,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BHR": {
-      "value": 58000.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BHS": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BIH": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BLR": {
-      "value": 33234.488315874296,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BLZ": {
-      "value": 1982.2723609991942,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BMU": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BOL": {
-      "value": 65645.4472199839,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BRA": {
-      "value": 3412651.0878323936,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "BRB": {
-      "value": 1015.3102336825141,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BRN": {
-      "value": 90883.15874294924,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "BTN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "BWA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CAF": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CAN": {
-      "value": 5434444.802578566,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "CHE": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CHL": {
-      "value": 5142.626913779211,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CHN": {
-      "value": 3990204.6736502824,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "CIV": {
-      "value": 50014.50443190975,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CMR": {
-      "value": 94680.09669621273,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "COD": {
-      "value": 20343.27155519742,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "COG": {
-      "value": 256720.38678485094,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "COK": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "COL": {
-      "value": 764833.1990330379,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "COM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CPV": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CRI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CUB": {
-      "value": 55124.89927477841,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CYM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CYP": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "CZE": {
-      "value": 2507.655116841257,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "DEU": {
-      "value": 47766.31748589847,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "DJI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "DMA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "DNK": {
-      "value": 55397.260273972606,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "DOM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "DZA": {
-      "value": 1110834.8106365835,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ECU": {
-      "value": 478767.12328767125,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "EGY": {
-      "value": 583647.0588235294,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ERI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ESH": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ESP": {
-      "value": 2667.203867848509,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "EST": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ETH": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "FIN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "FJI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "FLK": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "FRA": {
-      "value": 16975.02014504432,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "FRO": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GAB": {
-      "value": 210207.8968573731,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "GBR": {
-      "value": 569759.8710717164,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "GEO": {
-      "value": 407.7356970185334,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GHA": {
-      "value": 101021.75664786463,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GIB": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GIN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GLP": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GMB": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GNB": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GNQ": {
-      "value": 81287.67123287672,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "GRC": {
-      "value": 3252.2159548751,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GRD": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GRL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GTM": {
-      "value": 9236.099919419823,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GUF": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GUM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "GUY": {
-      "value": 576439.9677679291,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "HKG": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "HND": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "HRV": {
-      "value": 14436.744560838035,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "HTI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "HUN": {
-      "value": 20269.13779210314,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "IDN": {
-      "value": 560780.0161160355,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "IND": {
-      "value": 616381.9500402901,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "IRL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "IRN": {
-      "value": 4394306.20467365,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "IRQ": {
-      "value": 4041416.5995165193,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "ISL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ISR": {
-      "value": 399.67767929089445,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ITA": {
-      "value": 83505.23771152296,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "JAM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "JOR": {
-      "value": 22.562449637389204,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "JPN": {
-      "value": 9988.718775181305,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KAZ": {
-      "value": 1641103.9484286867,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "KEN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KGZ": {
-      "value": 1016.9218372280419,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KHM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KIR": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KNA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KOR": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "KWT": {
-      "value": 2450788.074133763,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "LAO": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LBN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LBR": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LBY": {
-      "value": 1044417.4053182917,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "LCA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LKA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LSO": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LTU": {
-      "value": 2035.4552780016118,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LUX": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "LVA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MAC": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MAR": {
-      "value": 159.54875100725224,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MDA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MDG": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MDV": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MEX": {
-      "value": 1806265.9145850122,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "MKD": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MLI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MLT": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MMR": {
-      "value": 15774.375503626108,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MNE": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MNG": {
-      "value": 24359.3875906527,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MNP": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MOZ": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MRT": {
-      "value": 4899.274778404512,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MSR": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MTQ": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MUS": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MWI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "MYS": {
-      "value": 451028.2030620467,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "NAM": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NCL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NER": {
-      "value": 13337.630942788075,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NGA": {
-      "value": 1478705.8823529414,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "NIC": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NIU": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NLD": {
-      "value": 23784.045124899276,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NOR": {
-      "value": 1609635.777598711,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "NPL": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NRU": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "NZL": {
-      "value": 36923.44883158743,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "OMN": {
-      "value": 898443.1909750202,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "PAK": {
-      "value": 88493.1506849315,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PAN": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PER": {
-      "value": 97771.15229653506,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "PHL": {
-      "value": 20422.240128928286,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PNG": {
-      "value": 54319.09750201451,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "POL": {
-      "value": 20243.3521353747,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PRI": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PRK": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PRT": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PRY": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PSE": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "PYF": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "QAT": {
-      "value": 1414746.1724415794,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "REU": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "ROU": {
-      "value": 53735.69701853344,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "RUS": {
-      "value": 9865970.991136182,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "RWA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+    "USA": {
+      "value": 13870000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 10,
+      "lag_note": "lagged; release: 2025-10"
     },
     "SAU": {
-      "value": 9562066.075745367,
+      "value": 10084000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SDN": {
-      "value": 34833.199033037876,
+    "RUS": {
+      "value": 9946000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SEN": {
-      "value": 0.0,
+    "CAN": {
+      "value": 5008000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SGP": {
-      "value": 0.0,
+    "CHN": {
+      "value": 4320000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SHN": {
-      "value": 0.0,
+    "IRQ": {
+      "value": 4081000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SLB": {
-      "value": 0.0,
+    "BRA": {
+      "value": 3912000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SLE": {
-      "value": 0.0,
+    "ARE": {
+      "value": 3373000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SLV": {
-      "value": 0.0,
+    "IRN": {
+      "value": 3187000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SOM": {
-      "value": 0.0,
+    "KWT": {
+      "value": 2580000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SPM": {
-      "value": 0.0,
+    "KAZ": {
+      "value": 2076000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SRB": {
-      "value": 20902.497985495567,
+    "NOR": {
+      "value": 1922000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "SSD": {
-      "value": 80077.35697018534,
+    "MEX": {
+      "value": 1742000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "STP": {
-      "value": 0.0,
+    "NGA": {
+      "value": 1422000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "SUR": {
-      "value": 18591.458501208705,
+    "LBY": {
+      "value": 1365000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 11,
+      "lag_note": "lagged; release: 2025-11"
     },
-    "SVK": {
-      "value": 214.34327155519745,
+    "QAT": {
+      "value": 1317000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "SVN": {
-      "value": 4.8348106365834,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "SWE": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "SWZ": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "SYC": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "SYR": {
-      "value": 31068.49315068493,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TCA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TCD": {
-      "value": 126343.27155519743,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TGO": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "THA": {
-      "value": 232240.12892828364,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TJK": {
-      "value": 183.7228041901692,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TKM": {
-      "value": 168868.65431103949,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TLS": {
-      "value": 45406.92989524577,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TON": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TTO": {
-      "value": 63434.32715551975,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TUN": {
-      "value": 27851.73247381144,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "TUR": {
-      "value": 51178.08219178082,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TWN": {
-      "value": 233.68251410153104,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "TZA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "UGA": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "UKR": {
-      "value": 45674.45608380339,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "URY": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
-    },
-    "USA": {
-      "value": 16079587.429492345,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "UZB": {
-      "value": 36130.539887187755,
-      "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
-    },
-    "VCT": {
-      "value": 0.0,
-      "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
     "VEN": {
-      "value": 928304.5930701048,
+      "value": 1120000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
     },
-    "VGB": {
-      "value": 0.0,
+    "OMN": {
+      "value": 1011000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "VIR": {
-      "value": 0.0,
+    "DZA": {
+      "value": 972000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "ARG": {
+      "value": 834000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "COL": {
+      "value": 752000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "IND": {
+      "value": 579000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "IDN": {
+      "value": 564000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "AZE": {
+      "value": 556000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "MYS": {
+      "value": 541000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "EGY": {
+      "value": 519000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GBR": {
+      "value": 477000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ECU": {
+      "value": 470000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "COG": {
+      "value": 16000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GAB": {
+      "value": 227000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "TKM": {
+      "value": 191000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "AUS": {
+      "value": 184000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GHA": {
+      "value": 182000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BHR": {
+      "value": 180000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
     "VNM": {
-      "value": 159389.202256245,
+      "value": 172000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "VUT": {
-      "value": 0.0,
+    "THA": {
+      "value": 158000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "WSM": {
-      "value": 0.0,
+    "TUR": {
+      "value": 129000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "TCD": {
+      "value": 126000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "NER": {
+      "value": 108000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BRN": {
+      "value": 95000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "SYR": {
+      "value": 85000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ITA": {
+      "value": 84000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "DNK": {
+      "value": 69000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "PAK": {
+      "value": 66000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CIV": {
+      "value": 62000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CMR": {
+      "value": 59000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "TTO": {
+      "value": 52000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ROU": {
+      "value": 51000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GNQ": {
+      "value": 46000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "PER": {
+      "value": 42000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "PNG": {
+      "value": 31000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "DEU": {
+      "value": 30000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "SDN": {
+      "value": 30000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "UZB": {
+      "value": 29000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BLR": {
+      "value": 25000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CUB": {
+      "value": 25000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "TUN": {
+      "value": 24000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "HUN": {
+      "value": 21000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "NLD": {
+      "value": 20000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BOL": {
+      "value": 19000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ISR": {
+      "value": 15000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
     "YEM": {
-      "value": 33389.202256244964,
+      "value": 15000.0,
       "unit": "桶/日",
-      "year": 2024,
-      "month": null,
-      "lag_note": "lagged; release: 2024-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "ZAF": {
-      "value": 4370.668815471394,
+    "MNG": {
+      "value": 14000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "ZMB": {
-      "value": 0.0,
+    "ALB": {
+      "value": 12000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     },
-    "ZWE": {
-      "value": 0.0,
+    "SUR": {
+      "value": 12000.0,
       "unit": "桶/日",
-      "year": 2016,
-      "month": null,
-      "lag_note": "lagged; release: 2016-12"
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "POL": {
+      "value": 11000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "SRB": {
+      "value": 11000.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "TWN": {
+      "value": 200.0,
+      "unit": "桶/日",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
     }
   },
-  "latest_year": 2024
+  "latest_year": 2025,
+  "latest_month": "2025-12",
+  "raw_unit": "BBL/D/1K",
+  "url": "https://zh.tradingeconomics.com/country-list/crude-oil-production"
 }

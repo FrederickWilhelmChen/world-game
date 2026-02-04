@@ -15,6 +15,7 @@ SPECIAL_CASES = {
     "Laos": "LAO",
     "Moldova": "MDA",
     "North Macedonia": "MKD",
+    "Niger": "NER",
     "Russia": "RUS",
     "Syria": "SYR",
     "Taiwan": "TWN",

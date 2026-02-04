@@ -1,0 +1,818 @@
+{
+  "last_updated": "2026-02-04T11:53:16Z",
+  "unit": "吨",
+  "source": "Trading Economics (Gold Reserves)",
+  "data": {
+    "USA": {
+      "value": 8133.0,
+      "previous": 8133.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "DEU": {
+      "value": 3350.0,
+      "previous": 3350.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ITA": {
+      "value": 2452.0,
+      "previous": 2452.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "FRA": {
+      "value": 2437.0,
+      "previous": 2437.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "RUS": {
+      "value": 2327.0,
+      "previous": 2330.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "CHN": {
+      "value": 2306.0,
+      "previous": 2304.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "CHE": {
+      "value": 1040.0,
+      "previous": 1040.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "IND": {
+      "value": 880.0,
+      "previous": 880.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "JPN": {
+      "value": 846.0,
+      "previous": 846.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "TUR": {
+      "value": 614.0,
+      "previous": 641.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "NLD": {
+      "value": 612.0,
+      "previous": 612.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "POL": {
+      "value": 550.0,
+      "previous": 515.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "TWN": {
+      "value": 424.0,
+      "previous": 424.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "UZB": {
+      "value": 390.0,
+      "previous": 361.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "PRT": {
+      "value": 383.0,
+      "previous": 383.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "KAZ": {
+      "value": 341.0,
+      "previous": 324.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "SAU": {
+      "value": 323.0,
+      "previous": 323.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GBR": {
+      "value": 310.0,
+      "previous": 310.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "LBN": {
+      "value": 287.0,
+      "previous": 287.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 3,
+      "lag_note": "lagged; release: 2025-03"
+    },
+    "ESP": {
+      "value": 282.0,
+      "previous": 282.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "AUT": {
+      "value": 280.0,
+      "previous": 280.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "THA": {
+      "value": 235.0,
+      "previous": 235.0,
+      "unit": "吨",
+      "year": 2026,
+      "month": 3,
+      "lag_note": null
+    },
+    "BEL": {
+      "value": 227.0,
+      "previous": 227.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "AZE": {
+      "value": 200.0,
+      "previous": 185.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "SGP": {
+      "value": 194.0,
+      "previous": 205.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "DZA": {
+      "value": 174.0,
+      "previous": 174.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BRA": {
+      "value": 172.0,
+      "previous": 145.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "IRQ": {
+      "value": 171.0,
+      "previous": 165.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "LBY": {
+      "value": 147.0,
+      "previous": 147.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "PHL": {
+      "value": 133.0,
+      "previous": 132.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "EGY": {
+      "value": 129.0,
+      "previous": 129.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "SWE": {
+      "value": 126.0,
+      "previous": 126.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "ZAF": {
+      "value": 126.0,
+      "previous": 125.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "MEX": {
+      "value": 120.0,
+      "previous": 120.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "QAT": {
+      "value": 115.0,
+      "previous": 116.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "GRC": {
+      "value": 115.0,
+      "previous": 115.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "HUN": {
+      "value": 110.0,
+      "previous": 110.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "KOR": {
+      "value": 104.0,
+      "previous": 104.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ROU": {
+      "value": 104.0,
+      "previous": 104.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "IDN": {
+      "value": 85.53,
+      "previous": 85.53,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "AUS": {
+      "value": 79.87,
+      "previous": 79.87,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "KWT": {
+      "value": 78.98,
+      "previous": 78.97,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ARE": {
+      "value": 74.26,
+      "previous": 74.4,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "JOR": {
+      "value": 73.16,
+      "previous": 72.83,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CZE": {
+      "value": 71.61,
+      "previous": 66.84,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "DNK": {
+      "value": 66.55,
+      "previous": 66.55,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "PAK": {
+      "value": 64.77,
+      "previous": 64.76,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "ARG": {
+      "value": 61.74,
+      "previous": 61.74,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "KHM": {
+      "value": 54.43,
+      "previous": 54.43,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BLR": {
+      "value": 53.86,
+      "previous": 53.86,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "SRB": {
+      "value": 51.69,
+      "previous": 50.31,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "KGZ": {
+      "value": 45.87,
+      "previous": 40.7,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "FIN": {
+      "value": 43.76,
+      "previous": 43.76,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BGR": {
+      "value": 42.93,
+      "previous": 42.93,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "MYS": {
+      "value": 38.88,
+      "previous": 38.88,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "PER": {
+      "value": 34.67,
+      "previous": 34.67,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "SVK": {
+      "value": 31.69,
+      "previous": 31.69,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "UKR": {
+      "value": 27.37,
+      "previous": 27.37,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "ECU": {
+      "value": 26.28,
+      "previous": 26.28,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "BOL": {
+      "value": 22.5,
+      "previous": 22.53,
+      "unit": "吨",
+      "year": 2025,
+      "month": 3,
+      "lag_note": "lagged; release: 2025-03"
+    },
+    "MAR": {
+      "value": 22.12,
+      "previous": 22.12,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GHA": {
+      "value": 18.6,
+      "previous": 37.06,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "BGD": {
+      "value": 14.28,
+      "previous": 14.28,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CYP": {
+      "value": 13.9,
+      "previous": 13.9,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "GTM": {
+      "value": 13.02,
+      "previous": 13.02,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "MUS": {
+      "value": 12.42,
+      "previous": 12.42,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "IRL": {
+      "value": 12.04,
+      "previous": 12.04,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "PRY": {
+      "value": 8.19,
+      "previous": 8.19,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "NPL": {
+      "value": 7.99,
+      "previous": 7.99,
+      "unit": "吨",
+      "year": 2024,
+      "month": 6,
+      "lag_note": "lagged; release: 2024-06"
+    },
+    "MNG": {
+      "value": 7.8,
+      "previous": 7.64,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "MKD": {
+      "value": 6.89,
+      "previous": 6.89,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "TUN": {
+      "value": 6.84,
+      "previous": 6.84,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "OMN": {
+      "value": 6.73,
+      "previous": 6.73,
+      "unit": "吨",
+      "year": 2025,
+      "month": 3,
+      "lag_note": "lagged; release: 2025-03"
+    },
+    "LVA": {
+      "value": 6.66,
+      "previous": 6.66,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "LTU": {
+      "value": 5.82,
+      "previous": 5.82,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "COL": {
+      "value": 4.68,
+      "previous": 4.68,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "BHR": {
+      "value": 4.67,
+      "previous": 4.67,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "SVN": {
+      "value": 4.01,
+      "previous": 3.73,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "MOZ": {
+      "value": 3.94,
+      "previous": 3.94,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "BIH": {
+      "value": 3.48,
+      "previous": 3.48,
+      "unit": "吨",
+      "year": 2025,
+      "month": 3,
+      "lag_note": "lagged; release: 2025-03"
+    },
+    "ALB": {
+      "value": 3.42,
+      "previous": 3.42,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "ABW": {
+      "value": 3.11,
+      "previous": 3.11,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "LUX": {
+      "value": 2.24,
+      "previous": 2.24,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "HKG": {
+      "value": 2.08,
+      "previous": 2.08,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "TTO": {
+      "value": 2.0,
+      "previous": 1.96,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "ISL": {
+      "value": 1.98,
+      "previous": 1.98,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "PNG": {
+      "value": 1.96,
+      "previous": 1.96,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "SLV": {
+      "value": 1.81,
+      "previous": 1.81,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "HTI": {
+      "value": 1.81,
+      "previous": 1.81,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "SUR": {
+      "value": 1.21,
+      "previous": 1.21,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "HND": {
+      "value": 0.7,
+      "previous": 0.7,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "DOM": {
+      "value": 0.57,
+      "previous": 0.57,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "LKA": {
+      "value": 0.47,
+      "previous": 0.47,
+      "unit": "吨",
+      "year": 2025,
+      "month": 6,
+      "lag_note": "lagged; release: 2025-06"
+    },
+    "MLT": {
+      "value": 0.34,
+      "previous": 0.31,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "CHL": {
+      "value": 0.25,
+      "previous": 0.25,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "EST": {
+      "value": 0.25,
+      "previous": 0.25,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "URY": {
+      "value": 0.1,
+      "previous": 0.1,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "FJI": {
+      "value": 0.03,
+      "previous": 0.03,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    },
+    "KEN": {
+      "value": 0.02,
+      "previous": 0.02,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "ARM": {
+      "value": 0.0,
+      "previous": 0.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 12,
+      "lag_note": null
+    },
+    "CAN": {
+      "value": 0.0,
+      "previous": 0.0,
+      "unit": "吨",
+      "year": 2025,
+      "month": 9,
+      "lag_note": "lagged; release: 2025-09"
+    }
+  },
+  "latest_year": 2026,
+  "latest_month": "2026-03",
+  "url": "https://zh.tradingeconomics.com/country-list/gold-reserves"
+}

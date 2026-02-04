@@ -700,6 +700,19 @@ function formatCompact(value) {
   return Number(value).toFixed(3);
 }
 
+function formatLocaleNumber(value, { maxFractionDigits = 1 } = {}) {
+  if (value === null || value === undefined || Number.isNaN(value)) {
+    return null;
+  }
+  try {
+    return Number(value).toLocaleString("zh-CN", {
+      maximumFractionDigits: maxFractionDigits,
+    });
+  } catch (e) {
+    return String(value);
+  }
+}
+
 function initCountryDetailsPanel() {
   const panel = document.getElementById("country-detail");
   if (!panel) {
@@ -766,6 +779,7 @@ function initCountryDetailsPanel() {
     const grainCompact = formatCompact(data?.grain_production?.total);
     const metals = data?.nonferrous_metals;
     const goldCompact = formatCompact(data?.gold_production?.value);
+    const goldReservesValue = formatLocaleNumber(data?.gold_reserves?.value, { maxFractionDigits: 1 });
     const gdpValue = gdpCompact ? `$${gdpCompact}` : "—";
     const oilValue = oilCompact || "—";
     const grainValue = grainCompact || "—";
@@ -799,6 +813,13 @@ function initCountryDetailsPanel() {
         value: goldValue,
         unit: data?.gold_production?.unit,
         note: data?.gold_production?.lag_note,
+      }),
+      buildMetric({
+        icon: "🏦",
+        label: "黄金储备",
+        value: goldReservesValue || "—",
+        unit: data?.gold_reserves?.unit,
+        note: data?.gold_reserves?.lag_note,
       }),
     ]
       .filter(Boolean)
@@ -891,6 +912,12 @@ function buildTooltipContent({ name, capital, data, loading }) {
       formatCompact(number(data?.grain_production?.total)),
       data?.grain_production?.unit,
       data?.grain_production?.lag_note
+    ),
+    renderMetric(
+      "黄金储备",
+      formatLocaleNumber(number(data?.gold_reserves?.value), { maxFractionDigits: 1 }),
+      data?.gold_reserves?.unit,
+      data?.gold_reserves?.lag_note
     ),
   ].filter(Boolean).join("");
 
@@ -1099,6 +1126,22 @@ async function initializeMap() {
         fillColor: "#b76e4c",
         fillOpacity: 0.9,
       });
+
+      marker.on("mouseover", () => {
+        try {
+          marker.setStyle({ radius: 4, weight: 1.4, fillOpacity: 1.0 });
+        } catch (e) {
+          // Ignore.
+        }
+      });
+
+      marker.on("mouseout", () => {
+        try {
+          marker.setStyle({ radius: 3, weight: 1, fillOpacity: 0.9 });
+        } catch (e) {
+          // Ignore.
+        }
+      });
       
       // 绑定首都名称标签（根据设置决定方向）
       marker.bindTooltip(name, {
@@ -1106,7 +1149,7 @@ async function initializeMap() {
         direction: labelDirection,
         offset: labelOffset,
         className: "capital-label",
-        opacity: 0.9,
+        opacity: 0.98,
       });
       
       // 存储标记信息

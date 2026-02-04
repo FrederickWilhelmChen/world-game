@@ -107,6 +107,24 @@ def merge_all_data():
                     "source", gold.get("source")
                 )
 
+    gold_reserves = _load_latest(get_data_dir("raw", "gold_reserves"))
+    if gold_reserves:
+        last_updated_values.append(gold_reserves.get("last_updated"))
+        for code, entry in gold_reserves.get("data", {}).items():
+            country = ensure_country(code)
+            country["gold_reserves"] = {
+                "value": entry.get("value"),
+                "previous": entry.get("previous"),
+                "unit": entry.get("unit", gold_reserves.get("unit", "吨")),
+                "year": entry.get("year"),
+                "month": entry.get("month"),
+                "lag_note": entry.get("lag_note"),
+            }
+            if entry.get("source") or gold_reserves.get("source"):
+                country["gold_reserves"]["source"] = entry.get(
+                    "source", gold_reserves.get("source")
+                )
+
     metadata = base_data.get("metadata", {})
     version = metadata.get("version", "0.1")
     parsed_updates = [value for value in (_parse_timestamp(value) for value in last_updated_values) if value]

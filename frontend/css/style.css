@@ -349,8 +349,7 @@ body {
   font-size: 12px;
 }
 
-.leaflet-tooltip.country-label,
-.leaflet-tooltip.capital-label {
+.leaflet-tooltip.country-label {
   background: rgba(255, 255, 255, 0.75);
   border: 1px solid rgba(29, 37, 44, 0.15);
   box-shadow: 0 6px 16px rgba(16, 25, 33, 0.12);
@@ -360,8 +359,25 @@ body {
   font-weight: 500;
 }
 
+/* Capital labels: remove the "sticker" white box; keep text readable with shadow. */
 .leaflet-tooltip.capital-label {
-  color: var(--accent-dark);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  color: rgba(22, 43, 58, 0.92);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.92),
+    0 0 10px rgba(255, 255, 255, 0.65),
+    0 10px 22px rgba(10, 28, 44, 0.22);
+}
+
+.leaflet-tooltip.capital-label::before {
+  display: none;
 }
 
 @media (max-width: 900px) {

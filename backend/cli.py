@@ -5,6 +5,7 @@ from .crawler.eia_oil import crawl_oil
 from .crawler.fao_agriculture import crawl_agriculture
 from .crawler.usgs_minerals import crawl_minerals
 from .crawler.worldbank_gdp import crawl_gdp
+from .crawler.te_gold_reserves import crawl_gold_reserves
 from .utils.data_merger import merge_all_data
 
 
@@ -16,6 +17,7 @@ def main(argv=None):
     sub.add_parser("crawl-oil")
     sub.add_parser("crawl-agriculture")
     sub.add_parser("crawl-minerals")
+    sub.add_parser("crawl-gold-reserves")
     sub.add_parser("crawl-all")
     sub.add_parser("merge")
 
@@ -33,11 +35,15 @@ def main(argv=None):
     if args.cmd == "crawl-minerals":
         crawl_minerals()
         return 0
+    if args.cmd == "crawl-gold-reserves":
+        crawl_gold_reserves()
+        return 0
     if args.cmd == "crawl-all":
         crawl_gdp()
         crawl_oil()
         crawl_agriculture()
         crawl_minerals()
+        crawl_gold_reserves()
         merge_all_data()
         return 0
     if args.cmd == "merge":
