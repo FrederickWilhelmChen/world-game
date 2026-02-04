@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>语法检查</title>
+</head>
+<body>
+    <h1>JavaScript模块加载测试</h1>
+    <div id="results"></div>
+    
+    <script type="module">
+        const results = document.getElementById('results');
+        
+        async function test() {
+            try {
+                results.innerHTML += '<p>✓ 测试1: 加载 data_loader.js</p>';
+                await import('/frontend/js/data_loader.js');
+                
+                results.innerHTML += '<p>✓ 测试2: 加载 tooltip.js</p>';
+                await import('/frontend/js/tooltip.js');
+                
+                results.innerHTML += '<p>✓ 测试3: 加载 formatters.js</p>';
+                await import('/frontend/js/formatters.js');
+                
+                results.innerHTML += '<p>✓ 测试4: 加载 data_viz.js</p>';
+                await import('/frontend/js/data_viz.js');
+                
+                results.innerHTML += '<p>✓ 测试5: 加载 map.js</p>';
+                await import('/frontend/js/map.js');
+                
+                results.innerHTML += '<h2 style="color: green;">✅ 所有模块加载成功！</h2>';
+                results.innerHTML += '<p>现在可以访问主页了: <a href="/">点击这里</a></p>';
+                
+            } catch (error) {
+                results.innerHTML += `<h2 style="color: red;">❌ 错误: ${error.message}</h2>`;
+                results.innerHTML += `<pre>${error.stack}</pre>`;
+            }
+        }
+        
+        test();
+    </script>
+</body>
+</html>

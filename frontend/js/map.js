@@ -1,5 +1,7 @@
 import { clearCountryCache, fetchCountryData } from "./data_loader.js";
 import { hideTooltip, initTooltip, moveTooltip, showTooltip } from "./tooltip.js";
+import { formatCompact, formatLocaleNumber } from "./formatters.js";
+import DataViz from "./data_viz.js";
 
 const map = L.map("map", {
   minZoom: 2,
@@ -68,6 +70,10 @@ const CHINA_OVERRIDE_COLOR = "#f0c27b";
 
 const countryColorByIso = new Map();
 
+// Data-driven colors (for visualization mode)
+const dataColorsByIso = new Map();
+let isDataColorMode = false;
+
 let hoverPopLayer = null;
 let hoverPopIso = null;
 let hoverPopRemoveTimer = null;
@@ -80,6 +86,12 @@ const countryFeaturesByIso = new Map();
 const countryDisplayNameByIso = new Map();
 
 const hoverFetchPromises = new Map();
+
+// Data visualization instance
+let dataVizInstance = null;
+
+// Store all countries data for visualization
+const allCountriesData = {};
 
 function hashString(value) {
   if (!value) {
@@ -95,6 +107,16 @@ function hashString(value) {
 function countryFillColor(iso) {
   if (!iso || iso === "-99") {
     return "#b9cde0";
+  }
+
+  // Use data-driven colors in visualization mode
+  if (isDataColorMode && dataColorsByIso.has(String(iso))) {
+    return dataColorsByIso.get(String(iso));
+  }
+  
+  // In data color mode but not in top 10, use a neutral gray (darker for better visibility)
+  if (isDataColorMode) {
+    return "#d4d4d4";
   }
 
   if (String(iso).toUpperCase() === "CHN") {
@@ -547,6 +569,68 @@ function scheduleHoverLeave(iso) {
   }, 110);
 }
 
+// Apply data-driven colors to map
+function applyDataColors(colorMap) {
+  dataColorsByIso.clear();
+  
+  if (colorMap && colorMap.size > 0) {
+    isDataColorMode = true;
+    colorMap.forEach((color, iso) => {
+      dataColorsByIso.set(iso, color);
+    });
+  } else {
+    isDataColorMode = false;
+  }
+
+  // Update all country styles
+  if (geojsonLayer) {
+    geojsonLayer.eachLayer((layer) => {
+      const feature = layer?.feature;
+      if (feature) {
+        layer.setStyle(baseStyle(feature));
+      }
+    });
+  }
+}
+
+// Handle country highlight event from data viz
+window.addEventListener('country:highlight', (event) => {
+  const iso = event.detail?.iso;
+  if (!iso) return;
+
+  // Find the country layer and simulate a click
+  const layers = countryLayersByIso.get(iso);
+  if (layers && layers.size > 0) {
+    const firstLayer = Array.from(layers)[0];
+    // Trigger hover effect
+    if (hoverIso && hoverIso !== iso) {
+      setIsoStyle(hoverIso, baseStyle);
+    }
+    hoverIso = iso;
+    setIsoStyle(iso, hoverStyle);
+    
+    const collection = featureCollectionForIso(iso);
+    if (collection) {
+      showHoverPop(collection, iso);
+    }
+
+    // Pan map to country if possible
+    try {
+      const bounds = firstLayer.getBounds();
+      if (bounds && bounds.isValid()) {
+        map.fitBounds(bounds, { 
+          padding: [50, 50],
+          maxZoom: 4,
+          animate: true,
+          duration: 0.5
+        });
+      }
+    } catch (e) {
+      // Ignore errors
+    }
+  }
+});
+
 const refreshButton = document.getElementById("refresh-data");
 const refreshStatus = document.getElementById("refresh-status");
 
@@ -677,40 +761,8 @@ function resolveName(props) {
   if (iso && COUNTRY_NAMES_ZH[iso]) {
     return COUNTRY_NAMES_ZH[iso];
   }
-  // 如果没有中文映射，返回英文名称
+  // 如果没有中文映射,返回英文名称
   return props?.ADMIN || props?.NAME_LONG || props?.NAME || "未知";
-}
-
-function formatCompact(value) {
-  if (value === null || value === undefined || Number.isNaN(value)) {
-    return null;
-  }
-  const absolute = Math.abs(value);
-  const units = [
-    { limit: 1e12, label: "万亿" },
-    { limit: 1e9, label: "十亿" },
-    { limit: 1e6, label: "兆" },
-    { limit: 1e3, label: "千" },
-  ];
-  for (const unit of units) {
-    if (absolute >= unit.limit) {
-      return `${(value / unit.limit).toFixed(3)} ${unit.label}`;
-    }
-  }
-  return Number(value).toFixed(3);
-}
-
-function formatLocaleNumber(value, { maxFractionDigits = 1 } = {}) {
-  if (value === null || value === undefined || Number.isNaN(value)) {
-    return null;
-  }
-  try {
-    return Number(value).toLocaleString("zh-CN", {
-      maximumFractionDigits: maxFractionDigits,
-    });
-  } catch (e) {
-    return String(value);
-  }
 }
 
 function initCountryDetailsPanel() {
@@ -1182,11 +1234,69 @@ async function initializeMap() {
     // 3. 根据当前缩放级别显示首都
     updateCapitalVisibility();
     
+    // 4. 加载所有国家数据用于可视化
+    loadAllCountriesData().then(() => {
+      // 5. 初始化数据可视化组件
+      initDataViz();
+    }).catch(err => {
+      console.error("Failed to load viz data:", err);
+    });
+    
   } catch (error) {
+    console.error("Map initialization error:", error);
     showTooltip(
       { originalEvent: { pageX: 40, pageY: 40 } },
       "<div class=\"metric\">地图数据文件未找到。请在 static/geojson 目录下放置 world_50m_custom.geojson 文件。</div>"
     );
+  }
+}
+
+// Load all countries data for visualization
+async function loadAllCountriesData() {
+  console.log("Loading countries data...");
+  try {
+    const response = await fetch("/static/data/countries_data.json");
+    console.log("Fetch response status:", response.status);
+    if (!response.ok) {
+      console.error("Failed to load countries data, status:", response.status);
+      return;
+    }
+    const jsonData = await response.json();
+    const countries = jsonData?.countries || {};
+    console.log("Loaded countries count:", Object.keys(countries).length);
+    
+    // Store all countries data
+    Object.assign(allCountriesData, countries);
+    console.log("Countries data stored, total keys:", Object.keys(allCountriesData).length);
+    
+  } catch (error) {
+    console.error("Error loading countries data:", error);
+  }
+}
+
+// Initialize data visualization
+function initDataViz() {
+  console.log("Initializing DataViz...");
+  console.log("allCountriesData keys:", Object.keys(allCountriesData).length);
+  console.log("countryDisplayNameByIso size:", countryDisplayNameByIso.size);
+  
+  if (Object.keys(allCountriesData).length === 0) {
+    console.warn("No countries data available for visualization");
+    return;
+  }
+
+  try {
+    dataVizInstance = new DataViz(allCountriesData, countryDisplayNameByIso);
+    console.log("DataViz instance created successfully");
+    
+    // Set callback for map coloring
+    dataVizInstance.setColorMapCallback((colorMap) => {
+      applyDataColors(colorMap);
+    });
+    console.log("DataViz initialization complete");
+  } catch (error) {
+    console.error("Error initializing DataViz:", error);
+    console.error("Data visualization features will be disabled");
   }
 }
 

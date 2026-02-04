@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Test</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        #log {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .error { color: red; }
+        .success { color: green; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Module Loading Test</h1>
+    <div id="log"></div>
+    
+    <script type="module">
+        const log = document.getElementById('log');
+        function addLog(message, type = 'info') {
+            const line = document.createElement('div');
+            line.className = type;
+            line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            log.appendChild(line);
+        }
+        
+        addLog('Starting module load test...');
+        
+        try {
+            addLog('Attempting to import formatters...', 'info');
+            const formatters = await import('/frontend/js/formatters.js');
+            addLog('✓ formatters.js loaded successfully', 'success');
+            addLog(`  - formatCompact: ${typeof formatters.formatCompact}`, 'success');
+            addLog(`  - formatLocaleNumber: ${typeof formatters.formatLocaleNumber}`, 'success');
+            
+            addLog('Attempting to import data_viz...', 'info');
+            const dataVizModule = await import('/frontend/js/data_viz.js');
+            addLog('✓ data_viz.js loaded successfully', 'success');
+            addLog(`  - Default export: ${typeof dataVizModule.default}`, 'success');
+            
+            addLog('Attempting to load countries data...', 'info');
+            const response = await fetch('/static/data/countries_data.json');
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+            const data = await response.json();
+            addLog(`✓ Countries data loaded: ${Object.keys(data.countries || {}).length} countries`, 'success');
+            
+            addLog('Attempting to create DataViz instance...', 'info');
+            const testNames = new Map([['CHN', '中国'], ['USA', '美国']]);
+            const instance = new dataVizModule.default(data.countries, testNames);
+            addLog('✓ DataViz instance created successfully', 'success');
+            
+            addLog('\n=== ALL TESTS PASSED ===', 'success');
+            
+        } catch (error) {
+            addLog(`✗ ERROR: ${error.message}`, 'error');
+            addLog(`  Stack: ${error.stack}`, 'error');
+        }
+    </script>
+</body>
+</html>

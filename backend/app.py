@@ -46,6 +46,11 @@ def create_app():
     def frontend_assets(filename):
         return send_from_directory(frontend_dir, filename)
 
+    @app.route("/static/data/<path:filename>", methods=["GET"])
+    def data_assets(filename):
+        data_dir = os.path.join(base_dir, "data", "merged")
+        return send_from_directory(data_dir, filename)
+
     @app.route("/api/health", methods=["GET"])
     def health():
         manager = DataManager(app.config["DATA_PATH"])

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地图功能测试</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; padding: 20px; font-family: sans-serif; }
+        #map { height: 500px; border: 2px solid #333; }
+        #status { padding: 10px; background: #f0f0f0; margin-bottom: 10px; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div id="status">正在初始化...</div>
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const status = document.getElementById('status');
+        
+        function log(msg, type = 'info') {
+            console.log(msg);
+            const span = document.createElement('div');
+            span.className = type;
+            span.textContent = msg;
+            status.appendChild(span);
+        }
+        
+        log('创建地图实例...');
+        const map = L.map('map').setView([20, 0], 2);
+        
+        log('添加底图图层...');
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap',
+            maxZoom: 7
+        }).addTo(map);
+        
+        log('加载国家边界数据...', 'info');
+        fetch('/static/geojson/world_50m_custom.geojson')
+            .then(response => {
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                log('✓ GeoJSON加载成功', 'success');
+                return response.json();
+            })
+            .then(geojson => {
+                log('✓ GeoJSON解析成功，包含 ' + geojson.features.length + ' 个国家', 'success');
+                
+                const layer = L.geoJSON(geojson, {
+                    style: {
+                        fillColor: '#8fc9ff',
+                        fillOpacity: 0.7,
+                        color: '#333',
+                        weight: 1
+                    }
+                }).addTo(map);
+                
+                log('✓ 地图渲染完成！', 'success');
+                log('如果你能看到蓝色的世界地图，说明基本功能正常', 'success');
+            })
+            .catch(error => {
+                log('✗ 错误: ' + error.message, 'error');
+                log('请检查geojson文件是否存在于 static/geojson/ 目录', 'error');
+            });
+    </script>
+</body>
+</html>

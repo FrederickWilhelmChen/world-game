@@ -37,9 +37,40 @@
           <span>首都</span>
         </div>
       </header>
-      <section class="map-shell">
-        <div id="map" aria-label="交互式世界地图"></div>
-        <div id="tooltip" class="tooltip" aria-hidden="true"></div>
+      <section class="main-viz-layout">
+        <div class="map-with-tabs">
+          <div class="map-tabs-header">
+            <button class="tab-button active" data-tab="overview">总览</button>
+            <button class="tab-button" data-tab="gdp">GDP</button>
+            <button class="tab-button" data-tab="grain">粮食</button>
+            <button class="tab-button" data-tab="oil">石油</button>
+            <button class="tab-button" data-tab="gold">黄金</button>
+            <button class="tab-button" data-tab="gold_reserves">黄金储备</button>
+            <button class="tab-button" data-tab="aluminum">铝</button>
+            <button class="tab-button" data-tab="copper">铜</button>
+            <button class="tab-button" data-tab="nickel">镍</button>
+          </div>
+          <div class="map-shell">
+            <div id="map" aria-label="交互式世界地图"></div>
+            <div class="map-legend" id="map-legend" style="display: none;">
+              <h4 id="legend-title">数据分布</h4>
+              <div class="legend-scale" id="legend-scale"></div>
+              <div class="legend-labels">
+                <span id="legend-min">低</span>
+                <span id="legend-max">高</span>
+              </div>
+            </div>
+            <div id="tooltip" class="tooltip" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="chart-sidebar">
+          <h3 class="chart-title">排名前十</h3>
+          <div class="tabs-content">
+            <div class="tab-panel active" id="tab-overview">
+              <div class="chart-container" id="chart-overview"></div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="detail-panel" id="country-detail" aria-live="polite">
         <div class="detail-header">
