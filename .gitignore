@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+game/node_modules
+
+# Godot 4+ specific ignores
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# .NET / C# specific ignores
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.runtimeconfig.json
+*.deps.json
+
+# Mono / Godot Mono
+.mono/
+data_*/
+mono_crash.*.json
+
+# Visual Studio / VS Code
+.vs/
+*.csproj.user
+*.sln.DotSettings.user
